@@ -19,7 +19,7 @@ export async function generateMetadata({
       url: `https://safirhotel.uz/${locale}`,
       images: [
         {
-          url: "/images/hotel/general/hotel-day.webp",
+          url: "/images/hotel/general/hotel-exterior.jpg",
           width: 1200,
           height: 630,
           alt: "Fergana Hotel Exterior View",
@@ -30,7 +30,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("homeTitle"),
       description: t("homeDesc"),
-      images: ["/images/hotel/general/hotel-day.webp"],
+      images: ["/images/hotel/general/hotel-exterior.jpg"],
     },
     alternates: buildAlternates("", locale),
   };
@@ -44,8 +44,8 @@ export default function Home() {
       <link
         rel="preload"
         as="image"
-        href="/images/hotel/general/hotel-day.webp"
-        imageSrcSet="/images/hotel/general/hotel-day-mobile.webp 768w, /images/hotel/general/hotel-day.webp 1920w"
+        href="/images/hotel/general/hotel-exterior.jpg"
+        imageSrcSet="/images/hotel/general/hotel-exterior.jpg 768w, /images/hotel/general/hotel-exterior.jpg 1920w"
         imageSizes="(max-width: 768px) 768px, 1920px"
       />
       <HomeView />

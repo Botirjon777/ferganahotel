@@ -19,7 +19,7 @@ export async function generateMetadata({
       url: `https://safirhotel.uz/${locale}/about`,
       images: [
         {
-          url: "/images/hotel/general/reception.webp",
+          url: "/images/hotel/general/reception.jpg",
           width: 1200,
           height: 630,
           alt: "Reception lounge at Fergana Hotel",
@@ -30,7 +30,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("aboutTitle"),
       description: t("aboutDesc"),
-      images: ["/images/hotel/general/reception.webp"],
+      images: ["/images/hotel/general/reception.jpg"],
     },
     alternates: buildAlternates("/about", locale),
   };

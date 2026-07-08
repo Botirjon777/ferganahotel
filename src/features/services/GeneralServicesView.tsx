@@ -35,13 +35,13 @@ export default function GeneralServicesView() {
     {
       title: t("gastrobarTitle"),
       desc: t("gastrobarDesc"),
-      image: "/images/hotel/general/restaurant.webp",
+      image: "/images/hotel/general/outdoor-terrace.jpg",
       link: "/services/gastrobar",
     },
     {
       title: t("spaTitle"),
       desc: t("spaDesc"),
-      image: "/images/hotel/general/pool.webp",
+      image: "/images/hotel/general/hammam.jpg",
       link: "/services/spa",
     },
     {
@@ -53,12 +53,12 @@ export default function GeneralServicesView() {
     {
       title: t("laundryTitle"),
       desc: t("laundryDesc"),
-      image: "/images/hotel/general/reception-3.webp",
+      image: "/images/hotel/general/lobby.jpg",
     },
     {
       title: t("billiardTitle"),
       desc: t("billiardDesc"),
-      image: "/images/hotel/general/billiard.webp",
+      image: "/images/hotel/general/billiard.jpg",
     },
     { title: t("wifiTitle"), desc: t("wifiDesc"), icon: <FiWifi /> },
     { title: t("parkingTitle"), desc: t("parkingDesc"), icon: <FiMap /> },

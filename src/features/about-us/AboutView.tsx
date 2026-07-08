@@ -51,10 +51,10 @@ export default function AboutView() {
       {/* Welcome & Image Section */}
       <section className="pt-20 pb-5 px-5 max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-10 items-center bg-white p-2.5 md:p-5 shadow-[0_20px_80px_rgba(0,0,0,0.05)] rounded-sm -mt-32 relative z-20 border border-sand/20">
-          <div className="relative w-full overflow-hidden rounded-sm aspect-[4/3] lg:aspect-square max-h-[320px]">
+          <div className="w-full aspect-[4/3] xl:aspect-[3/4] relative overflow-hidden group">
             <ResponsiveImage
-              src="/images/hotel/rooms/lux/king/2.webp"
-              alt="Fergana Hotel Interior"
+              src="/images/hotel/rooms/lux/1.jpg"
+              alt="Comfortable rooms"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"

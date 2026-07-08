@@ -20,39 +20,39 @@ import { Link } from "@/i18n/navigation";
 
 const images = [
   {
-    src: "/images/hotel/general/hotel-day.webp",
-    alt: "Fergana Hotel Day View",
+    src: "/images/hotel/general/hotel-exterior.jpg",
+    alt: "Fergana Hotel Exterior",
     id: "hotel-day",
   },
   {
-    src: "/images/hotel/general/hotel-night.webp",
+    src: "/images/hotel/general/hotel-night.jpg",
     alt: "Fergana Hotel Night View",
     id: "hotel-night",
   },
   {
-    src: "/images/hotel/general/reception.webp",
+    src: "/images/hotel/general/reception.jpg",
     alt: "Hotel Reception",
     id: "reception",
   },
   {
-    src: "/images/hotel/general/restaurant.webp",
-    alt: "Hotel Restaurant",
-    id: "restaurant",
+    src: "/images/hotel/general/lobby.jpg",
+    alt: "Hotel Lobby Lounge",
+    id: "hotel-day",
   },
   {
-    src: "/images/hotel/general/pool.webp",
-    alt: "Hotel Swimming Pool",
-    id: "pool",
+    src: "/images/hotel/general/outdoor-terrace.jpg",
+    alt: "Outdoor Terrace",
+    id: "hotel-day",
   },
   {
-    src: "/images/hotel/general/breakfast.webp",
-    alt: "Hotel Breakfast Buffet",
-    id: "breakfast",
-  },
-  {
-    src: "/images/hotel/general/billiard.webp",
+    src: "/images/hotel/general/billiard.jpg",
     alt: "Hotel Billiard Room",
     id: "billiard",
+  },
+  {
+    src: "/images/hotel/general/hammam.jpg",
+    alt: "Hotel Hammam & Sauna",
+    id: "hotel-day",
   },
 ];
 

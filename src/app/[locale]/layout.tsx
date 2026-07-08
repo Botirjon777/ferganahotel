@@ -40,7 +40,7 @@ const jsonLd = {
     latitude: "40.3834",
     longitude: "71.7833",
   },
-  image: "https://safirhotel.uz/images/hotel/general/hotel-day.webp",
+  image: "https://safirhotel.uz/images/hotel/general/hotel-exterior.jpg",
   starRating: { "@type": "Rating", ratingValue: "5" },
   aggregateRating: {
     "@type": "AggregateRating",

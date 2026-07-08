@@ -19,7 +19,7 @@ export async function generateMetadata({
       url: `https://safirhotel.uz/${locale}/reviews`,
       images: [
         {
-          url: "/images/hotel/general/hotel-day.webp",
+          url: "/images/hotel/general/hotel-exterior.jpg",
           width: 1200,
           height: 630,
           alt: "Fergana Hotel Guest Reviews",
@@ -30,7 +30,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("reviewsTitle"),
       description: t("reviewsDesc"),
-      images: ["/images/hotel/general/hotel-day.webp"],
+      images: ["/images/hotel/general/hotel-exterior.jpg"],
     },
     alternates: buildAlternates("/reviews", locale),
   };
@@ -41,7 +41,7 @@ const reviewsJsonLd = {
   "@type": "Hotel",
   name: "Fergana Hotel",
   url: "https://safirhotel.uz/reviews",
-  image: "https://safirhotel.uz/images/hotel/general/hotel-day.webp",
+  image: "https://safirhotel.uz/images/hotel/general/hotel-exterior.jpg",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.8",

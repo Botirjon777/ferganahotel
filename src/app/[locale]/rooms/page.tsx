@@ -19,18 +19,18 @@ export async function generateMetadata({
       url: `https://safirhotel.uz/${locale}/rooms`,
       images: [
         {
-          url: "/images/hotel/rooms/lux/king/2.webp",
+          url: "/images/hotel/rooms/lux/1.jpg",
           width: 1200,
           height: 630,
-          alt: "Deluxe King Room at Fergana Hotel, Fergana",
+          alt: t("metaTitle"),
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("roomsTitle"),
-      description: t("roomsDesc"),
-      images: ["/images/hotel/rooms/lux/king/2.webp"],
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      images: ["/images/hotel/rooms/lux/1.jpg"],
     },
     alternates: buildAlternates("/rooms", locale),
   };

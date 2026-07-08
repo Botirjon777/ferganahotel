@@ -29,7 +29,7 @@ export async function generateMetadata({
       url: `https://safirhotel.uz/${locale}/services/gastrobar`,
       images: [
         {
-          url: "/images/hotel/general/restaurant-2.webp",
+          url: "/images/hotel/general/outdoor-terrace.jpg",
           width: 1200,
           height: 630,
           alt: "Fergana Hotel Gastrobar restaurant dining, Fergana",
@@ -40,7 +40,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("gastrobarTitle"),
       description: t("gastrobarDesc"),
-      images: ["/images/hotel/general/restaurant-2.webp"],
+      images: ["/images/hotel/general/outdoor-terrace.jpg"],
     },
     alternates: buildAlternates("/services/gastrobar", locale),
   };
