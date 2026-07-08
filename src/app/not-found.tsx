@@ -9,14 +9,14 @@ export default function NotFound() {
         <div className="flex flex-col items-center">
           <div className="mb-8">
             <Link href="/uz" className="flex items-center no-underline group">
-              <div className="relative h-[70px] w-[70px] md:h-[100px] md:w-[100px] transition-transform duration-300 group-hover:scale-105">
+              <div className="relative h-[64px] w-[129px] md:h-[92px] md:w-[185px] transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="/images/logo/logo-safir.png"
+                  src="/images/logo/logo-fergana.png"
                   alt="Fergana Hotel Logo"
                   fill
                   className="object-contain brightness-0 invert opacity-90 drop-shadow-2xl"
                   priority
-                  sizes="(max-width: 768px) 70px, 100px"
+                  sizes="(max-width: 768px) 129px, 185px"
                 />
               </div>
             </Link>
