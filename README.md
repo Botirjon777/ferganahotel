@@ -2,7 +2,7 @@
 
 > **Above the Ordinary** — Official website for Safir Hotel Fergana. Built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, and URL-based multi-language routing.
 
-**Live:** [safirhotel.uz](https://safirhotel.uz)
+**Live:** [ferganahotel.uz](https://ferganahotel.uz)
 
 ---
 
@@ -446,9 +446,9 @@ Three locales: **Uzbek** (`uz`, default) · **Russian** (`ru`) · **English** (`
 ### URL structure
 
 ```
-safirhotel.uz/uz/rooms   ← Uzbek
-safirhotel.uz/ru/rooms   ← Russian
-safirhotel.uz/en/rooms   ← English
+ferganahotel.uz/uz/rooms   ← Uzbek
+ferganahotel.uz/ru/rooms   ← Russian
+ferganahotel.uz/en/rooms   ← English
 ```
 
 `localePrefix: "always"` — every locale has an explicit prefix. Visiting `/` redirects to `/uz`.
@@ -513,12 +513,12 @@ A Hotel JSON-LD schema is injected in `[locale]/layout.tsx` on every page:
 
 ```ts
 alternates: {
-  canonical: "https://safirhotel.uz/ru/rooms",
+  canonical: "https://ferganahotel.uz/ru/rooms",
   languages: {
-    uz: "https://safirhotel.uz/uz/rooms",
-    ru: "https://safirhotel.uz/ru/rooms",
-    en: "https://safirhotel.uz/en/rooms",
-    "x-default": "https://safirhotel.uz/uz/rooms",
+    uz: "https://ferganahotel.uz/uz/rooms",
+    ru: "https://ferganahotel.uz/ru/rooms",
+    en: "https://ferganahotel.uz/en/rooms",
+    "x-default": "https://ferganahotel.uz/uz/rooms",
   }
 }
 ```
@@ -541,13 +541,13 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_next/
-Sitemap: https://safirhotel.uz/sitemap.xml
-Host: https://safirhotel.uz
+Sitemap: https://ferganahotel.uz/sitemap.xml
+Host: https://ferganahotel.uz
 ```
 
 ### Domain
 
-Production domain is `safirhotel.uz` (non-www). `www.safirhotel.uz` is configured as a redirect in Vercel settings.
+Production domain is `ferganahotel.uz` (non-www). `www.ferganahotel.uz` is configured as a redirect in Vercel settings.
 
 ---
 

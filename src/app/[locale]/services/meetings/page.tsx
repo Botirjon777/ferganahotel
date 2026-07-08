@@ -7,9 +7,9 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://safirhotel.uz" },
-    { "@type": "ListItem", position: 2, name: "Services", item: "https://safirhotel.uz/services" },
-    { "@type": "ListItem", position: 3, name: "Meetings & Events", item: "https://safirhotel.uz/services/meetings" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ferganahotel.uz" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://ferganahotel.uz/services" },
+    { "@type": "ListItem", position: 3, name: "Meetings & Events", item: "https://ferganahotel.uz/services/meetings" },
   ],
 };
 
@@ -26,7 +26,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("meetingsTitle"),
       description: t("meetingsDesc"),
-      url: `https://safirhotel.uz/${locale}/services/meetings`,
+      url: `https://ferganahotel.uz/${locale}/services/meetings`,
       images: [
         {
           url: "/images/hotel/conference-rooms/52-person/1.webp",

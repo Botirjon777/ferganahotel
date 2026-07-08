@@ -20,7 +20,7 @@ export default function BeBookingForm() {
                 {return function(){e[t]&&e[t][o]&&e[t][o].loaded||(g.removeChild(n),i())}}(a,(function(){n(i.slice(1,i.length))})),g.appendChild(a)}}(
             ["uz-ibe.hopenapi.com", "ibe.hopenapi.com", "ibe.behopenapi.com"])}
     }(window, [
-      ["setContext", "BE-INT-safirhotel-uz_2026-06-03", locale],
+      ["setContext", "BE-INT-ferganahotel-uz_2026-06-03", locale],
       ["embed", "booking-form", {
         container: "be-booking-form"
       }]

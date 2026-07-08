@@ -7,9 +7,9 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://safirhotel.uz" },
-    { "@type": "ListItem", position: 2, name: "Services", item: "https://safirhotel.uz/services" },
-    { "@type": "ListItem", position: 3, name: "Gastrobar", item: "https://safirhotel.uz/services/gastrobar" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ferganahotel.uz" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://ferganahotel.uz/services" },
+    { "@type": "ListItem", position: 3, name: "Gastrobar", item: "https://ferganahotel.uz/services/gastrobar" },
   ],
 };
 
@@ -26,7 +26,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("gastrobarTitle"),
       description: t("gastrobarDesc"),
-      url: `https://safirhotel.uz/${locale}/services/gastrobar`,
+      url: `https://ferganahotel.uz/${locale}/services/gastrobar`,
       images: [
         {
           url: "/images/hotel/general/outdoor-terrace.jpg",
