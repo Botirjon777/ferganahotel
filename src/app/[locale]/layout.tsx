@@ -21,8 +21,8 @@ const jsonLd = {
   description:
     "Experience genuine hospitality, premium rooms, and modern comfort in the heart of Fergana.",
   url: "https://ferganahotel.uz/uz",
-  telephone: "+998945590077",
-  email: "safirhotel2024@gmail.com",
+  telephone: "+998732260077",
+  email: "ferghanahotel@gmail.com",
   checkinTime: "14:00",
   checkoutTime: "12:00",
   numberOfRooms: 63,
@@ -30,7 +30,7 @@ const jsonLd = {
   paymentAccepted: "Cash, Credit Card",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Moturudiy ko'chasi, 30V/2",
+    streetAddress: "Moturudiy ko'chasi 30 B",
     addressLocality: "Fergana",
     addressRegion: "Fergana Region",
     addressCountry: "UZ",

@@ -192,7 +192,7 @@ graph TB
     end
 
     subgraph External
-        HOPE[Hope API\nuz-ibe.hopenapi.com\nProperty 506781]
+        HOPE[Hope API\nuz-ibe.hopenapi.com\nProperty 506786]
         MAPS[Google Maps\nEmbed iframe]
         FONTS[Google Fonts CDN]
     end
@@ -418,7 +418,7 @@ npm run optimize-images
 
 ## API Integrations
 
-All API calls go to **Hope API** (`uz-ibe.hopenapi.com`) — Property ID `506781`.
+All API calls go to **Hope API** (`uz-ibe.hopenapi.com`) — Property ID `506786`.
 
 | Endpoint | Used in | Purpose |
 |----------|---------|---------|
