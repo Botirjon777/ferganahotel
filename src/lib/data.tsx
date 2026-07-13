@@ -63,7 +63,7 @@ export const roomCategories = [
   {
     id: "standart",
     label: "Standard Single Room",
-    hopenId: 5047553,
+    hopenId: 5039972,
     mainImage: "/images/hotel/rooms/standart-1/1.jpg",
     images: [
       "/images/hotel/rooms/standart-1/1.jpg",
@@ -78,7 +78,7 @@ export const roomCategories = [
   {
     id: "superior-twin",
     label: "Superior Twin Room",
-    hopenId: 5036376,
+    hopenId: 5074929,
     bestseller: true,
     mainImage: "/images/hotel/rooms/standart-2/1.jpg",
     images: [
@@ -94,7 +94,7 @@ export const roomCategories = [
   {
     id: "deluxe-twin",
     label: "Deluxe Twin Room",
-    hopenId: 5036375,
+    hopenId: 5036645,
     mainImage: "/images/hotel/rooms/standart-3/1.jpg",
     images: [
       "/images/hotel/rooms/standart-3/1.jpg",
@@ -109,7 +109,7 @@ export const roomCategories = [
   {
     id: "superior-king",
     label: "Superior King Room",
-    hopenId: 5036377,
+    hopenId: 5036647,
     mainImage: "/images/hotel/rooms/lux/1.jpg",
     images: [
       "/images/hotel/rooms/lux/1.jpg",
@@ -125,7 +125,7 @@ export const roomCategories = [
   {
     id: "deluxe-king",
     label: "Deluxe King Room",
-    hopenId: 5051545,
+    hopenId: 5036646,
     mainImage: "/images/hotel/rooms/lux-2/1.jpg",
     images: [
       "/images/hotel/rooms/lux-2/1.jpg",
@@ -138,7 +138,7 @@ export const roomCategories = [
   {
     id: "apartment",
     label: "Apartment",
-    hopenId: 5039999,
+    hopenId: 5036649,
     mainImage: "/images/hotel/rooms/apartament/1.jpg",
     images: [
       "/images/hotel/rooms/apartament/1.jpg",

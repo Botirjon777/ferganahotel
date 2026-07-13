@@ -569,5 +569,13 @@
     "reviewsDesc": "Fergana Hotelda tunagan mehmonlarning haqiqiy sharhlarini o'qing: xizmat, tozalik, joylashuv va qulaylik. O'z sharhingizni Google Maps, Yandex Xarita yoki Tripadvisor'da qoldiring.",
     "newsTitle": "Yangiliklar — Fergana Hotel",
     "newsDesc": "Fergana Hotelning eng so'nggi yangiliklari, yutuqlari va e'lonlari."
+  },
+  "SpecialOffers": {
+    "title": "Fergana Hotel maxsus takliflari",
+    "earlyBooking": "Barvaqt band qilish",
+    "earlyBookingDesc": "Agar 10 kun oldin band qilsangiz, 15% chegirma olasiz. Ushbu tarifga bepul nonushta, avtoturargoh va butun hudud bo'ylab Wi-Fi kiradi.",
+    "longStay": "Uzoq muddatli yashash",
+    "longStayDesc": "Uzoqroq qoling va tejang! Fergana Hotelda 4 kecha yoki undan ko'proq muddatga xona band qiling va 15% chegirmaga ega bo'ling. \"Uzoq muddatli yashash\" tarifi mehmonxonamizning qulayligi va shinamligidan maxsus narxda uzoq vaqt zavqlanishni istaganlar uchun mo'ljallangan.",
+    "bookNow": "BAND QILISH"
   }
 }

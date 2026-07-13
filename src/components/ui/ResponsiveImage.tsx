@@ -26,7 +26,7 @@ export function ResponsiveImage({
   ...rest
 }: ResponsiveImageProps) {
   return (
-    <picture>
+    <picture style={rest.fill ? { position: "absolute", inset: 0 } : undefined}>
       <source
         media={`(max-width: ${mobileBreakpoint}px)`}
         srcSet={toMobileSrc(src)}

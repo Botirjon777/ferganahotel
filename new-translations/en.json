@@ -569,5 +569,13 @@
     "reviewsDesc": "Read verified guest reviews for Fergana Hotel — ratings for service, cleanliness, location, comfort, and value. Share your own experience on Google Maps, Yandex Maps, or Tripadvisor.",
     "newsTitle": "News & Events — Fergana Hotel",
     "newsDesc": "Latest news, achievements, and announcements from Fergana Hotel."
+  },
+  "SpecialOffers": {
+    "title": "Special offers from Fergana Hotel",
+    "earlyBooking": "Early booking",
+    "earlyBookingDesc": "If you book 10 days in advance, you will receive a 15% discount. This rate includes free breakfast, parking and Wi-Fi throughout.",
+    "longStay": "Long-term accommodation",
+    "longStayDesc": "Stay longer and save money! Book a room at the Fergana Hotel for 4 nights or more and get a 15% discount. The \"Long stay\" tariff is designed for those who want to enjoy the comfort and coziness of our hotel for a long stay at a special price.",
+    "bookNow": "BOOK NOW"
   }
 }

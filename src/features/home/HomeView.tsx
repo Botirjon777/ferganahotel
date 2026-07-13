@@ -14,6 +14,7 @@ const Footer = dynamic(() => import("@/components/layout/Footer").then(m => ({ d
 const FloatBookBtn = dynamic(() => import("@/components/ui/FloatBookBtn").then(m => ({ default: m.FloatBookBtn })));
 const ServicePopup = dynamic(() => import("@/components/ui/ServicePopup").then(m => ({ default: m.ServicePopup })));
 const WelcomePopup = dynamic(() => import("@/components/ui/WelcomePopup").then(m => ({ default: m.WelcomePopup })));
+const SpecialOffers = dynamic(() => import("./components/SpecialOffers").then(m => ({ default: m.SpecialOffers })));
 
 export default function HomeView() {
   return (
@@ -24,6 +25,7 @@ export default function HomeView() {
       <Hero />
         <BeSearchForm extraClass={"block-search--main"} />
       <ImageBanner />
+      <SpecialOffers />
       <Recommendations />
       <About />
 
