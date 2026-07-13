@@ -1,6 +1,6 @@
-# Safir Hotel Fergana — Official Website
+# Fergana Hotel — Official Website
 
-> **Above the Ordinary** — Official website for Safir Hotel Fergana. Built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, and URL-based multi-language routing.
+> **Above the Ordinary** — Official website for Fergana Hotel. Built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4, and URL-based multi-language routing.
 
 **Live:** [ferganahotel.uz](https://ferganahotel.uz)
 
@@ -90,10 +90,10 @@ fergana-hotel/
     │       ├── news/
     │       │   ├── page.tsx
     │       │   └── [slug]/page.tsx
+    │       ├── offers/
+    │       │   └── page.tsx
     │       └── services/
     │           ├── page.tsx
-    │           ├── gastrobar/page.tsx
-    │           ├── spa/page.tsx
     │           └── meetings/page.tsx
     │
     ├── i18n/
@@ -148,6 +148,7 @@ fergana-hotel/
     │   ├── gallery/
     │   ├── booking/
     │   ├── services/
+    │   ├── offers/
     │   ├── news/
     │   │   └── articles/
     │   └── reviews/
@@ -292,12 +293,11 @@ graph LR
     UZ --> HOME["/uz — Home"]
     UZ --> ABOUT["/uz/about"]
     UZ --> ROOMS["/uz/rooms"]
+    UZ --> OFFERS["/uz/offers"]
     UZ --> GALLERY["/uz/gallery"]
     UZ --> NEWS["/uz/news"]
     NEWS --> SLUG["/uz/news/[slug]"]
     UZ --> SVC["/uz/services"]
-    SVC --> GASTRO["/uz/services/gastrobar"]
-    SVC --> SPA["/uz/services/spa"]
     SVC --> MEET["/uz/services/meetings"]
     UZ --> BOOK["/uz/booking"]
     UZ --> CONTACTS["/uz/contacts"]
@@ -469,8 +469,8 @@ Messages live in `/new-translations/*.json`. Namespaces:
 ```
 Navbar · Hero · Booking · About · Location · ImageBanner · Gallery
 Welcome · GalleryPage · Recommendations · AboutPage · RoomsPage
-NewsPage · Gastrobar · Spa · Meetings · GeneralServices · Services
-Footer · ReviewsWidget · Common · ReviewsPage · NotFound · Meta
+NewsPage · Meetings · GeneralServices · Services
+Footer · ReviewsWidget · Common · ReviewsPage · NotFound · Meta · SpecialOffers
 ```
 
 The `Meta` namespace holds locale-specific SEO titles and descriptions for every page.
