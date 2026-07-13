@@ -3,6 +3,7 @@
     "home": "Bosh sahifa",
     "about us": "Biz haqimizda",
     "rooms": "Xonalar",
+    "offers": "Maxsus takliflar",
     "gallery": "Galereya",
     "services": "Xizmatlar",
     "news": "Yangiliklar",
@@ -571,8 +572,10 @@
     "contactsDesc": "Manzil: Farg'ona viloyati, Farg'ona shahri, Moturudiy ko'chasi 30 B. Tel: +998 73 226 00 77. Kirish 14:00, chiqish 12:00.",
     "reviewsTitle": "Mehmonlar sharhlari — Fergana Hotel",
     "reviewsDesc": "Fergana Hotelda tunagan mehmonlarning haqiqiy sharhlarini o'qing: xizmat, tozalik, joylashuv va qulaylik. O'z sharhingizni Google Maps, Yandex Xarita yoki Tripadvisor'da qoldiring.",
-    "newsTitle": "Yangiliklar — Fergana Hotel",
-    "newsDesc": "Fergana Hotelning eng so'nggi yangiliklari, yutuqlari va e'lonlari."
+    "newsTitle": "Yangiliklar va voqealar — Fergana Hotel",
+    "newsDesc": "Fergana Hoteldan so'nggi yangiliklar, yutuqlar va e'lonlar.",
+    "offersTitle": "Maxsus takliflar va aksiyalar — Fergana Hotel",
+    "offersDesc": "Bizning eksklyuziv takliflarimiz va aksiyalarimiz bilan tanishing. To'g'ridan-to'g'ri band qiling va qo'shimcha chegirmalarga ega bo'ling."
   },
   "SpecialOffers": {
     "title": "Fergana Hotel maxsus takliflari",

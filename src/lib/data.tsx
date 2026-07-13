@@ -10,6 +10,7 @@ import {
 export const navLinks = [
   { label: "About Us", href: "/about" },
   { label: "Rooms", href: "/rooms" },
+  { label: "Offers", href: "/offers" },
   {
     label: "Services",
     href: "/services",

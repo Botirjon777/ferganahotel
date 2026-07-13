@@ -3,6 +3,7 @@
     "home": "Home",
     "about us": "About Us",
     "rooms": "Rooms",
+    "offers": "Offers",
     "gallery": "Gallery",
     "services": "Services",
     "news": "News",
@@ -572,7 +573,9 @@
     "reviewsTitle": "Guest Reviews & Ratings — Fergana Hotel",
     "reviewsDesc": "Read verified guest reviews for Fergana Hotel — ratings for service, cleanliness, location, comfort, and value. Share your own experience on Google Maps, Yandex Maps, or Tripadvisor.",
     "newsTitle": "News & Events — Fergana Hotel",
-    "newsDesc": "Latest news, achievements, and announcements from Fergana Hotel."
+    "newsDesc": "Latest news, achievements, and announcements from Fergana Hotel.",
+    "offersTitle": "Special Offers & Promotions — Fergana Hotel",
+    "offersDesc": "Discover our exclusive special offers and promotions. Book direct and enjoy additional discounts and benefits during your stay at Fergana Hotel."
   },
   "SpecialOffers": {
     "title": "Special offers from Fergana Hotel",
