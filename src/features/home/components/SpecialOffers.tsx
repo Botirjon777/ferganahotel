@@ -2,7 +2,6 @@
 import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 import { useTranslations } from "next-intl";
 import { FiArrowRight } from "react-icons/fi";
-import { SectionHeader } from "@/components/ui/SectionHeader";
 import { useRouter } from "next/navigation";
 
 export function SpecialOffers() {

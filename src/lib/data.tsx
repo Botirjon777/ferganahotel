@@ -14,8 +14,6 @@ export const navLinks = [
     label: "Services",
     href: "/services",
     subLinks: [
-      { label: "Gastrobar", href: "/services/gastrobar" },
-      { label: "Fitness & SPA", href: "/services/spa" },
       { label: "Meetings & Events", href: "/services/meetings" },
     ],
   },
@@ -173,16 +171,6 @@ export const generalGallery = [
 ];
 
 export const servicesItems = [
-  {
-    icon: <LiaWineGlassSolid />,
-    key: "gastrobar",
-    href: "/services/gastrobar",
-  },
-  {
-    icon: <LiaSpaSolid />,
-    key: "spa",
-    href: "/services/spa",
-  },
   {
     icon: <LiaUsersSolid />,
     key: "meetings",

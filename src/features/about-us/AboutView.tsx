@@ -51,7 +51,7 @@ export default function AboutView() {
       {/* Welcome & Image Section */}
       <section className="pt-20 pb-5 px-5 max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-10 items-center bg-white p-2.5 md:p-5 shadow-[0_20px_80px_rgba(0,0,0,0.05)] rounded-sm -mt-32 relative z-20 border border-sand/20">
-          <div className="w-full aspect-[4/3] xl:aspect-[3/4] relative overflow-hidden group">
+          <div className="w-full aspect-4/3 xl:aspect-3/4 relative overflow-hidden group">
             <ResponsiveImage
               src="/images/hotel/rooms/lux/1.jpg"
               alt="Comfortable rooms"
@@ -75,7 +75,10 @@ export default function AboutView() {
       {/* Terms & Conditions Section */}
       <section className="py-5 px-5 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
         {/* Check-in / Check-out */}
-        <div id="terms-of-stay" className="space-y-5 animate-[fadeUp_0.8s_0.2s_forwards] opacity-0">
+        <div
+          id="terms-of-stay"
+          className="space-y-5 animate-[fadeUp_0.8s_0.2s_forwards] opacity-0"
+        >
           <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 bg-gold/10 flex items-center justify-center rounded-full text-gold">
               <FiClock size={24} />
@@ -140,7 +143,10 @@ export default function AboutView() {
         </div>
 
         {/* Cancellation & Policies */}
-        <div id="cancellation-policy" className="space-y-5 animate-[fadeUp_0.8s_0.4s_forwards] opacity-0">
+        <div
+          id="cancellation-policy"
+          className="space-y-5 animate-[fadeUp_0.8s_0.4s_forwards] opacity-0"
+        >
           <div className="flex items-center gap-4 mb-5">
             <div className="w-12 h-12 bg-gold/10 flex items-center justify-center rounded-full text-gold">
               <FiFileText size={24} />

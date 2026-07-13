@@ -396,8 +396,12 @@
       "kingBed": "King-size yotoq",
       "glasses": "Stakanlar"
     },
-    "showLess": "Yashirish",
+    "showLess": "Kamroq ko'rsatish",
     "showMore": "Ko'proq ko'rsatish",
+    "poolTitle": "Yopiq basseyn",
+    "poolDesc": "Fergana Hotel o'z mehmonlariga shinam muhitda hordiq chiqarish va dam olish mumkin bo'lgan qulay basseynga kirishni taklif qiladi.",
+    "breakfastTitle": "\"Shved stoli\" nonushtasi",
+    "breakfastDesc": "Barcha mehmonlarning didiga mos keladigan turli xil taomlar: yangi pishiriqlar, an'anaviy o'zbek taomlari va boshqalar.",
     "gastrobarTitle": "Gastrobar",
     "gastrobarDesc": "Sifatli taomlar va dam olishingiz uchun qulay muhit.",
     "spaTitle": "Fitnes va SPA",
