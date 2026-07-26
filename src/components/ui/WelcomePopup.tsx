@@ -70,11 +70,11 @@ export function WelcomePopup() {
       onClick={handleClose}
     >
       <div
-        className={`relative bg-[#1a1108] overflow-hidden w-full h-full md:h-auto md:max-w-[520px] md:mx-4 md:rounded-sm ${isClosing ? "animate-modal-out" : "animate-modal-in"}`}
+        className={`relative bg-navy overflow-hidden w-full h-full md:h-auto md:max-w-[520px] md:mx-4 md:rounded-sm ${isClosing ? "animate-modal-out" : "animate-modal-in"}`}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Background */}
-        <div className="absolute inset-0 z-0 bg-linear-to-b from-[#1a1108] via-[#241608] to-[#1a1108]" />
+        <div className="absolute inset-0 z-0 bg-linear-to-b from-navy via-navy-mid to-navy" />
 
         {/* Close Button */}
         <button

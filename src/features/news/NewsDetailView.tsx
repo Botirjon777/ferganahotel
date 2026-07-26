@@ -57,7 +57,7 @@ export default function NewsDetailView({ id }: NewsDetailViewProps) {
             priority
           />
         )}
-        <div className="absolute inset-0 bg-linear-to-t from-[#1a1108] via-[#1a1108]/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-navy via-navy/50 to-transparent"></div>
 
         <div className="max-w-[1200px] mx-auto w-full px-5 pb-10 relative z-10">
           <div className="flex items-center gap-3 text-sand/60 mb-2.5">

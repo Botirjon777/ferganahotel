@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function NotFound() {
   return (
-    <main className="min-h-screen bg-[#1a1108] text-cream flex flex-col relative overflow-hidden">
-      <div className="absolute inset-0 bg-linear-to-br from-[#1a1108] via-[#2d1f0a] to-[#3d2c12] opacity-50"></div>
+    <main className="min-h-screen bg-navy text-cream flex flex-col relative overflow-hidden">
+      <div className="absolute inset-0 bg-linear-to-br from-navy via-navy-light to-navy-lighter opacity-50"></div>
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center text-center px-6">
         <div className="flex flex-col items-center">
           <div className="mb-8">
@@ -21,7 +21,7 @@ export default function NotFound() {
               </div>
             </Link>
           </div>
-          <h1 className="font-cormorant text-[clamp(100px,20vw,200px)] font-light leading-none text-gold mb-2 tracking-widest drop-shadow-[0_0_30px_rgba(181,80,47,0.3)]">
+          <h1 className="font-cormorant text-[clamp(100px,20vw,200px)] font-light leading-none text-gold mb-2 tracking-widest drop-shadow-[0_0_30px_rgba(184,135,43,0.3)]">
             404
           </h1>
           <h2 className="text-2xl md:text-4xl font-jost font-light text-cream mb-6 tracking-wide">

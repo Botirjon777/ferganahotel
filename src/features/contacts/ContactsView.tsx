@@ -19,7 +19,7 @@ export default function ContactsView() {
       <MobileSidebar />
 
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-10 px-6 bg-[#1a1108] text-white relative overflow-hidden">
+      <section className="pt-24 md:pt-32 pb-10 px-6 bg-navy text-white relative overflow-hidden">
         <div className="max-w-[1200px] mx-auto relative z-10">
           <Link
             href="/"
@@ -116,7 +116,7 @@ export default function ContactsView() {
 
           {/* Right: map */}
           <div className="flex flex-col gap-3">
-            <div className="w-full aspect-4/3 bg-[#e8e0d0] relative z-0 overflow-hidden shadow-[0_8px_40px_rgba(181,80,47,0.12)]">
+            <div className="w-full aspect-4/3 bg-[#e8e0d0] relative z-0 overflow-hidden shadow-[0_8px_40px_rgba(184,135,43,0.12)]">
               <HotelMap />
             </div>
             <div className="flex gap-3">

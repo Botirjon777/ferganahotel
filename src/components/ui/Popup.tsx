@@ -19,7 +19,7 @@ export function PopupWrapper({
   if (activePopup !== id) return null;
 
   return (
-    <div className="fixed inset-0 bg-[#1a1108]/80 z-3000 flex items-center justify-center md:p-6 overflow-hidden">
+    <div className="fixed inset-0 bg-navy/80 z-3000 flex items-center justify-center md:p-6 overflow-hidden">
       <div
         className="bg-cream w-full h-full md:h-auto relative animate-[popup-in_0.4s_cubic-bezier(.34,1.56,.64,1)] px-6 py-12 md:px-12 md:py-14 overflow-y-auto"
         style={{ textAlign: center ? "center" : "left", maxWidth }}

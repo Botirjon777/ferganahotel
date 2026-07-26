@@ -162,7 +162,7 @@ export default function GeneralServicesView() {
       </section>
 
       {/* Amenities Grid */}
-      <section className="py-5 px-5 bg-[#1a1108]/90 text-cream">
+      <section className="py-5 px-5 bg-navy/90 text-cream">
         <div className="max-w-[1200px] mx-auto">
           <h2 className="font-cormorant text-4xl md:text-5xl text-gold mb-5 md:mb-10 text-center">
             {t("amenitiesTitle")}

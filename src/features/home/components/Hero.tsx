@@ -52,7 +52,7 @@ export function Hero() {
       aria-label="Hero"
       className="h-[75vh] md:h-screen min-h-[520px] md:min-h-[800px] relative flex flex-col items-center justify-center"
     >
-      <div className="absolute inset-0 bg-linear-to-br from-[#1a1108] via-[#2d1f0a] to-[#3d2c12] hero-orb-1 hero-orb-2 overflow-hidden"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-navy via-navy-light to-navy-lighter hero-orb-1 hero-orb-2 overflow-hidden"></div>
       <div
         className="absolute inset-0 overflow-hidden"
         id="particles"

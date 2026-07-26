@@ -14,7 +14,7 @@ const HOTEL_POSITION: [number, number] = [40.3693934, 71.7868168];
 const pinIcon = L.divIcon({
   className: "hotel-map-pin",
   html: `<svg width="36" height="46" viewBox="0 0 36 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M18 0C8.06 0 0 8.06 0 18c0 13.5 18 28 18 28s18-14.5 18-28C36 8.06 27.94 0 18 0z" fill="#b5502f"/>
+    <path d="M18 0C8.06 0 0 8.06 0 18c0 13.5 18 28 18 28s18-14.5 18-28C36 8.06 27.94 0 18 0z" fill="#b8872b"/>
     <circle cx="18" cy="18" r="7" fill="#fdfaf4"/>
   </svg>`,
   iconSize: [36, 46],

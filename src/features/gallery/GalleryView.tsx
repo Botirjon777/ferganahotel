@@ -87,7 +87,7 @@ export default function GalleryView() {
       <MobileSidebar />
 
       {/* Hero Section */}
-      <section className="pt-24 md:pt-32 pb-10 px-6 bg-[#1a1108] text-white relative overflow-hidden">
+      <section className="pt-24 md:pt-32 pb-10 px-6 bg-navy text-white relative overflow-hidden">
         <div className="max-w-[1200px] mx-auto relative z-10">
           <Link
             href="/"

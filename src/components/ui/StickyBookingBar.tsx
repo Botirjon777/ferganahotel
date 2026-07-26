@@ -40,7 +40,7 @@ export function StickyBookingBar() {
         show ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
-      <div className="bg-[#1a1108]/95 backdrop-blur-md border-b border-gold/20 px-5 py-2.5 md:px-2.5 md:py-2.5 flex flex-wrap items-center justify-between gap-4">
+      <div className="bg-navy/95 backdrop-blur-md border-b border-gold/20 px-5 py-2.5 md:px-2.5 md:py-2.5 flex flex-wrap items-center justify-between gap-4">
         {/* Desktop: inline date + guest pickers with dropdowns */}
         <div className="hidden lg:flex items-center gap-5 flex-1">
           <CustomDatePicker
@@ -81,7 +81,7 @@ export function StickyBookingBar() {
 
           {/* Mobile: open availability modal / Desktop: go to booking page */}
           <button
-            className="bg-gold hover:bg-[#c56142] text-white border-none py-1.5 px-2.5 md:py-2.5 md:px-5 font-jost text-[10px] md:text-xs tracking-[2px] cursor-pointer transition-all duration-300 shadow-lg shadow-gold/20 font-medium active:scale-95"
+            className="bg-gold hover:bg-gold-dark text-white border-none py-1.5 px-2.5 md:py-2.5 md:px-5 font-jost text-[10px] md:text-xs tracking-[2px] cursor-pointer transition-all duration-300 shadow-lg shadow-gold/20 font-medium active:scale-95"
             onClick={() => {
               if (window.innerWidth >= 1024) {
                 router.push("/booking");

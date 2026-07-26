@@ -22,7 +22,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-[#1a1108] text-cream px-5 py-5 md:py-10">
+    <footer className="bg-navy text-cream px-5 py-5 md:py-10">
       <div className="max-w-[1160px] mx-auto">
 
         {/* ── Desktop top row: Logo + Social Icons ── */}

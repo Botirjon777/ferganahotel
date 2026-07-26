@@ -29,8 +29,8 @@ export default function AboutView() {
       <MobileSidebar />
 
       {/* Hero Section */}
-      <section className="pt-20 md:pt-25 pb-20 px-5 bg-[#1a1108] text-white overflow-hidden relative">
-        <div className="absolute inset-0 bg-linear-to-br from-[#1a1108] via-[#2d1f0a] to-[#3d2c12] opacity-50"></div>
+      <section className="pt-20 md:pt-25 pb-20 px-5 bg-navy text-white overflow-hidden relative">
+        <div className="absolute inset-0 bg-linear-to-br from-navy via-navy-light to-navy-lighter opacity-50"></div>
         <div className="max-w-[1200px] mx-auto relative z-10">
           <Link
             href="/"

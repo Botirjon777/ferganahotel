@@ -29,7 +29,7 @@ export function Button({
 
   // Variant-specific appearance
   const variants = {
-    gold: "bg-gold text-white border border-gold hover:bg-[#c56142] hover:border-[#c56142] hover:translate-y-[-2px] shadow-lg shadow-gold/20 disabled:bg-gold/40 disabled:border-gold/0 disabled:translate-y-0",
+    gold: "bg-gold text-white border border-gold hover:bg-gold-dark hover:border-gold-dark hover:translate-y-[-2px] shadow-lg shadow-gold/20 disabled:bg-gold/40 disabled:border-gold/0 disabled:translate-y-0",
     creamy:
       "bg-cream text-text-dark border border-cream hover:bg-sand/30 hover:border-sand/30 disabled:opacity-50",
     outline:

@@ -79,7 +79,7 @@ export function CustomSelect({
           
           {/* Menu Container */}
           <div className={`absolute bottom-0 left-0 right-0 w-full md:relative md:bottom-auto rounded-t-2xl md:rounded-none max-h-[60vh] md:max-h-[200px] overflow-y-auto custom-scrollbar flex flex-col ${
-             theme === "light" ? "bg-white text-gray-800 md:border-gold/30" : "bg-[#1a1108] text-white md:border-gold/20"
+             theme === "light" ? "bg-white text-gray-800 md:border-gold/30" : "bg-navy text-white md:border-gold/20"
           }`}>
              {/* Mobile Header */}
              <div className="md:hidden px-6 py-4 border-b border-gold/20 flex justify-between items-center sticky top-0 bg-inherit z-10">

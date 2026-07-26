@@ -57,7 +57,7 @@ export default function BookingView() {
   }, [checkIn, checkOut, adults, childrenAges, locale, selectedRoomId]);
 
   return (
-    <main className="min-h-screen bg-[#1a1108] flex flex-col">
+    <main className="min-h-screen bg-navy flex flex-col">
       <Navbar />
       <MobileSidebar />
 

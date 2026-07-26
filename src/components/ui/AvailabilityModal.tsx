@@ -229,7 +229,7 @@ export function AvailabilityModal() {
 
   return (
     <Modal isOpen={isOpen} onClose={closePopup} type="full">
-      <div className="bg-[#1a1108] w-full h-full relative overflow-hidden border-none md:border md:border-gold/20 md:shadow-2xl flex flex-col">
+      <div className="bg-navy w-full h-full relative overflow-hidden border-none md:border md:border-gold/20 md:shadow-2xl flex flex-col">
         {/* Header */}
         <div className="p-6 md:p-8 border-b border-gold/10 flex items-center justify-between bg-[#1f160d] shrink-0">
           <div className="flex items-center gap-6">

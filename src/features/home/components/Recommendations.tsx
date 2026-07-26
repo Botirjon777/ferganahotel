@@ -122,7 +122,7 @@ export function Recommendations() {
             <SwiperSlide className="!h-auto flex pb-2">
               <Link
                 href="/rooms"
-                className="flex flex-col bg-gold overflow-hidden group hover:bg-[#c56142] transition-all duration-700 w-full h-full p-8 md:p-10 justify-center items-center text-center text-white relative shadow-[0_20px_40px_rgba(181,80,47,0.2)] min-h-[350px] animate-[fadeUp_0.8s_ease-out_forwards]"
+                className="flex flex-col bg-gold overflow-hidden group hover:bg-gold-dark transition-all duration-700 w-full h-full p-8 md:p-10 justify-center items-center text-center text-white relative shadow-[0_20px_40px_rgba(184,135,43,0.2)] min-h-[350px] animate-[fadeUp_0.8s_ease-out_forwards]"
                 style={{ animationDelay: `0.6s`, opacity: 0 }}
               >
                 <div className="absolute inset-0 opacity-10 bg-[url('/images/hotel/general/hotel-exterior.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-1000" />

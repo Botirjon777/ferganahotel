@@ -248,7 +248,7 @@ export function CustomDatePicker({
       >
         <div 
           className={`w-full md:w-[680px] h-full md:h-auto rounded-none md:rounded-md border-none md:border ${
-            theme === "light" ? "border-gray-200 bg-white" : "border-gold/20 bg-[#1a1108]"
+            theme === "light" ? "border-gray-200 bg-white" : "border-gold/20 bg-navy"
           } p-5 md:p-5 pb-2.5 md:pb-2.5 shadow-2xl overflow-y-auto custom-scrollbar flex flex-col`}
         >
           {/* Mobile Header with close button */}

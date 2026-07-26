@@ -180,7 +180,7 @@ export function GuestPicker({
       >
         <div 
           className={`w-full h-full md:h-auto md:w-[350px] md:rounded-md shadow-2xl overflow-y-auto custom-scrollbar flex flex-col ${
-             theme === "light" ? "bg-white text-gray-800 md:border md:border-gold/30" : "bg-[#1a1108] text-white md:border md:border-gold/20"
+             theme === "light" ? "bg-white text-gray-800 md:border md:border-gold/30" : "bg-navy text-white md:border md:border-gold/20"
           }`}
         >
            {/* Mobile Header */}

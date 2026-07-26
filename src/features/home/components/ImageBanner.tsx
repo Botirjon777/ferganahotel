@@ -73,7 +73,7 @@ function BannerImage({ img, priority }: { img: { src: string; alt: string; id: s
 
   return (
     // banner-img class is the zoom animation target (see globals.css .banner-swiper .swiper-slide-active .banner-img)
-    <div className="banner-img relative w-full h-full bg-[#1a1108]">
+    <div className="banner-img relative w-full h-full bg-navy">
       {loading && (
         <div className="absolute inset-0 z-30 flex items-center justify-center">
           <div className="w-10 h-10 border-2 border-gold/20 border-t-gold rounded-full animate-spin"></div>
