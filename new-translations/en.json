@@ -3,6 +3,7 @@
     "home": "Home",
     "about us": "About Us",
     "rooms": "Rooms",
+    "offers": "Offers",
     "gallery": "Gallery",
     "services": "Services",
     "news": "News",
@@ -398,6 +399,10 @@
     },
     "showLess": "Show Less",
     "showMore": "Show More",
+    "poolTitle": "Indoor Pool",
+    "poolDesc": "Fergana Hotel offers its guests access to a comfortable indoor pool where you can relax and unwind in a cozy atmosphere.",
+    "breakfastTitle": "Buffet Breakfast",
+    "breakfastDesc": "A variety of dishes to satisfy the tastes of all guests: fresh pastries, traditional Uzbek dishes, and much more.",
     "gastrobarTitle": "Gastrobar",
     "gastrobarDesc": "Quality cuisine and a comfortable atmosphere for your dining experience.",
     "spaTitle": "Fitness & SPA",
@@ -568,6 +573,16 @@
     "reviewsTitle": "Guest Reviews & Ratings — Fergana Hotel",
     "reviewsDesc": "Read verified guest reviews for Fergana Hotel — ratings for service, cleanliness, location, comfort, and value. Share your own experience on Google Maps, Yandex Maps, or Tripadvisor.",
     "newsTitle": "News & Events — Fergana Hotel",
-    "newsDesc": "Latest news, achievements, and announcements from Fergana Hotel."
+    "newsDesc": "Latest news, achievements, and announcements from Fergana Hotel.",
+    "offersTitle": "Special Offers & Promotions — Fergana Hotel",
+    "offersDesc": "Discover our exclusive special offers and promotions. Book direct and enjoy additional discounts and benefits during your stay at Fergana Hotel."
+  },
+  "SpecialOffers": {
+    "title": "Special offers from Fergana Hotel",
+    "earlyBooking": "Early booking",
+    "earlyBookingDesc": "If you book 10 days in advance, you will receive a 15% discount. This rate includes free breakfast, parking and Wi-Fi throughout.",
+    "longStay": "Long-term accommodation",
+    "longStayDesc": "Stay longer and save money! Book a room at the Fergana Hotel for 4 nights or more and get a 15% discount. The \"Long stay\" tariff is designed for those who want to enjoy the comfort and coziness of our hotel for a long stay at a special price.",
+    "bookNow": "BOOK NOW"
   }
 }

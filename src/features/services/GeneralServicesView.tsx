@@ -33,16 +33,14 @@ export default function GeneralServicesView() {
 
   const mainServices = [
     {
-      title: t("gastrobarTitle"),
-      desc: t("gastrobarDesc"),
-      image: "/images/hotel/general/outdoor-terrace.jpg",
-      link: "/services/gastrobar",
+      title: t("poolTitle"),
+      desc: t("poolDesc"),
+      image: "/images/hotel/general/hammam.jpg",
     },
     {
-      title: t("spaTitle"),
-      desc: t("spaDesc"),
-      image: "/images/hotel/general/hammam.jpg",
-      link: "/services/spa",
+      title: t("breakfastTitle"),
+      desc: t("breakfastDesc"),
+      image: "/images/hotel/general/outdoor-terrace.jpg",
     },
     {
       title: t("meetingsTitle"),

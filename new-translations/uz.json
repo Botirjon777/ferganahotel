@@ -3,6 +3,7 @@
     "home": "Bosh sahifa",
     "about us": "Biz haqimizda",
     "rooms": "Xonalar",
+    "offers": "Maxsus takliflar",
     "gallery": "Galereya",
     "services": "Xizmatlar",
     "news": "Yangiliklar",
@@ -396,8 +397,12 @@
       "kingBed": "King-size yotoq",
       "glasses": "Stakanlar"
     },
-    "showLess": "Yashirish",
+    "showLess": "Kamroq ko'rsatish",
     "showMore": "Ko'proq ko'rsatish",
+    "poolTitle": "Yopiq basseyn",
+    "poolDesc": "Fergana Hotel o'z mehmonlariga shinam muhitda hordiq chiqarish va dam olish mumkin bo'lgan qulay basseynga kirishni taklif qiladi.",
+    "breakfastTitle": "\"Shved stoli\" nonushtasi",
+    "breakfastDesc": "Barcha mehmonlarning didiga mos keladigan turli xil taomlar: yangi pishiriqlar, an'anaviy o'zbek taomlari va boshqalar.",
     "gastrobarTitle": "Gastrobar",
     "gastrobarDesc": "Sifatli taomlar va dam olishingiz uchun qulay muhit.",
     "spaTitle": "Fitnes va SPA",
@@ -567,7 +572,17 @@
     "contactsDesc": "Manzil: Farg'ona viloyati, Farg'ona shahri, Moturudiy ko'chasi 30 B. Tel: +998 73 226 00 77. Kirish 14:00, chiqish 12:00.",
     "reviewsTitle": "Mehmonlar sharhlari — Fergana Hotel",
     "reviewsDesc": "Fergana Hotelda tunagan mehmonlarning haqiqiy sharhlarini o'qing: xizmat, tozalik, joylashuv va qulaylik. O'z sharhingizni Google Maps, Yandex Xarita yoki Tripadvisor'da qoldiring.",
-    "newsTitle": "Yangiliklar — Fergana Hotel",
-    "newsDesc": "Fergana Hotelning eng so'nggi yangiliklari, yutuqlari va e'lonlari."
+    "newsTitle": "Yangiliklar va voqealar — Fergana Hotel",
+    "newsDesc": "Fergana Hoteldan so'nggi yangiliklar, yutuqlar va e'lonlar.",
+    "offersTitle": "Maxsus takliflar va aksiyalar — Fergana Hotel",
+    "offersDesc": "Bizning eksklyuziv takliflarimiz va aksiyalarimiz bilan tanishing. To'g'ridan-to'g'ri band qiling va qo'shimcha chegirmalarga ega bo'ling."
+  },
+  "SpecialOffers": {
+    "title": "Fergana Hotel maxsus takliflari",
+    "earlyBooking": "Barvaqt band qilish",
+    "earlyBookingDesc": "Agar 10 kun oldin band qilsangiz, 15% chegirma olasiz. Ushbu tarifga bepul nonushta, avtoturargoh va butun hudud bo'ylab Wi-Fi kiradi.",
+    "longStay": "Uzoq muddatli yashash",
+    "longStayDesc": "Uzoqroq qoling va tejang! Fergana Hotelda 4 kecha yoki undan ko'proq muddatga xona band qiling va 15% chegirmaga ega bo'ling. \"Uzoq muddatli yashash\" tarifi mehmonxonamizning qulayligi va shinamligidan maxsus narxda uzoq vaqt zavqlanishni istaganlar uchun mo'ljallangan.",
+    "bookNow": "BAND QILISH"
   }
 }

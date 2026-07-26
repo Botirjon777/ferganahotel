@@ -26,7 +26,7 @@ export default function LanguageSelector({
   const currentLang = languages.find((l) => l.code === locale) || languages[0];
 
   const handleLanguageChange = (newLocale: string) => {
-    router.replace(pathname, { locale: newLocale });
+    router.replace(pathname, { locale: newLocale, scroll: false });
     setIsOpen(false);
   };
 
@@ -58,7 +58,7 @@ export default function LanguageSelector({
         onClick={() => setIsOpen(!isOpen)}
         className={`flex items-center gap-2 px-3 py-2 text-xs font-medium transition-colors duration-300 ${isScrolled ? "text-text-mid" : "text-cream"} hover:text-gold`}
       >
-        <Image src={currentLang.flag} alt={currentLang.label} width={20} height={15} style={{ height: "auto" }} />
+        <img src={currentLang.flag} alt={currentLang.label} width={20} height={15} />
         <span>{currentLang.label}</span>
         <svg
           className={`w-4 h-4 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
@@ -86,7 +86,7 @@ export default function LanguageSelector({
                   locale === lang.code ? "bg-sand font-bold" : ""
                 }`}
               >
-                <Image src={lang.flag} alt={lang.label} width={20} height={15} />
+                <img src={lang.flag} alt={lang.label} width={20} height={15} />
                 <span>{lang.label}</span>
               </button>
             ))}
