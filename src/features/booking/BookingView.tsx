@@ -63,7 +63,7 @@ export default function BookingView() {
 
       <section className="pt-[80px] flex-1 flex flex-col">
         <div className="w-full flex-1 flex flex-col">
-          <div className="bg-white overflow-hidden flex-1 min-h-[70vh] flex flex-col">
+          <div className="bg-[#FAF8F2] overflow-hidden flex-1 min-h-[70vh] flex flex-col">
             {/*{iframeUrl ? (*/}
             {/*  <iframe */}
             {/*    src={iframeUrl}*/}

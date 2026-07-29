@@ -4,7 +4,7 @@ import { usePopup } from "@/lib/PopupContext";
 import { useTranslations } from "next-intl";
 import { useEffect, useState, useCallback } from "react";
 import { Button } from "./Button";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
 const STORAGE_KEY = "welcome-popup-shown-at";
 const TTL_DAYS = 7;
@@ -33,6 +33,7 @@ export function WelcomePopup() {
   const [isClosing, setIsClosing] = useState(false);
   const router = useRouter();
   const t = useTranslations("Welcome");
+  const { locale } = useParams();
 
   const handleClose = useCallback(() => {
     setIsClosing(true);
@@ -122,7 +123,7 @@ export function WelcomePopup() {
                 <Button
                   variant="gold"
                   className="flex-1"
-                  onClick={() => { handleClose(); router.push("/booking"); }}
+                  onClick={() => { handleClose(); router.push(`/${locale}/booking`); }}
                 >
                   {t("book")}
                 </Button>

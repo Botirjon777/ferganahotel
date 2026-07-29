@@ -77,7 +77,7 @@ export const roomCategories = [
   {
     id: "superior-twin",
     label: "Superior Twin Room",
-    hopenId: 5074929,
+    hopenId: 5036645,
     bestseller: true,
     mainImage: "/images/hotel/rooms/standart-2/1.jpg",
     images: [

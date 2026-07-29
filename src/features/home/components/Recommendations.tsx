@@ -11,6 +11,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { useState } from "react";
 import type { Swiper as SwiperType } from "swiper";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import { useParams, useRouter } from "next/navigation";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -20,6 +21,8 @@ export function Recommendations() {
   const tr = useTranslations("RoomsPage");
   const { openPopup, setGalleryImages } = usePopup();
   const [swiper, setSwiper] = useState<SwiperType | null>(null);
+  const router = useRouter();
+  const { locale } = useParams();
 
   const handleOpenGallery = (images: string[]) => {
     setGalleryImages(images);
@@ -30,6 +33,14 @@ export function Recommendations() {
   const selectedRooms = roomCategories.filter((cat) =>
     ["deluxe-king", "superior-twin", "superior-family"].includes(cat.id),
   );
+
+  const handleBook = (roomId?: number) => {
+    const url = roomId
+        ? `/${locale}/booking?room-type=${roomId}`
+        : `/${locale}/booking`;
+
+    router.push(url);
+  };
 
   return (
     <section id="rooms" aria-label="Rooms" className="py-5 md:py-10 px-5 bg-cream">
@@ -102,9 +113,16 @@ export function Recommendations() {
                     </div>
 
                     <div className="flex items-center justify-between pt-4 border-t border-sand/20">
+                      {/*<button*/}
+                      {/*  onClick={() => openPopup("booking-popup")}*/}
+                      {/*  className="flex items-center gap-2 group/btn text-[9px] tracking-[2px] uppercase font-bold text-text-dark hover:text-gold transition-all duration-300"*/}
+                      {/*>*/}
+                      {/*  {tr("bookNow")}*/}
+                      {/*  <FiArrowRight className="group-hover/btn:translate-x-1.5 transition-transform duration-300" />*/}
+                      {/*</button>*/}
                       <button
-                        onClick={() => openPopup("booking-popup")}
-                        className="flex items-center gap-2 group/btn text-[9px] tracking-[2px] uppercase font-bold text-text-dark hover:text-gold transition-all duration-300"
+                          onClick={() => handleBook(room.hopenId)}
+                          className="flex items-center gap-2 group/btn text-[9px] tracking-[2px] uppercase font-bold text-text-dark hover:text-gold transition-all duration-300"
                       >
                         {tr("bookNow")}
                         <FiArrowRight className="group-hover/btn:translate-x-1.5 transition-transform duration-300" />

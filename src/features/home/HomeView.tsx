@@ -36,7 +36,7 @@ export default function HomeView() {
       <Footer />
 
 
-      <FloatBookBtn />
+      {/*<FloatBookBtn />*/}
       <ServicePopup />
       <WelcomePopup />
     </main>
