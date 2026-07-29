@@ -2,14 +2,15 @@
 import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 import { useTranslations } from "next-intl";
 import { FiArrowRight } from "react-icons/fi";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 
 export function SpecialOffers() {
   const t = useTranslations("SpecialOffers");
   const router = useRouter();
+  const { locale } = useParams();
 
   const handleBook = (offerId: string) => {
-    router.push(`/booking?special-offer=${offerId}`);
+    router.push(`/${locale}/booking?special-offer=${offerId}`);
   };
 
   const offers = [

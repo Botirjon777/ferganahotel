@@ -8,7 +8,7 @@ import { ResponsiveImage } from "@/components/ui/ResponsiveImage";
 import { roomCategories } from "@/lib/data";
 import { FiWifi, FiArrowRight, FiArrowLeft } from "react-icons/fi";
 import { LuBath, LuBed, LuWind } from "react-icons/lu";
-import { useRouter } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/Button";
 import BeSearchForm from "@/components/be-forms/BeSearchForm";
@@ -17,16 +17,25 @@ export default function RoomsView() {
   const t = useTranslations("RoomsPage");
   const tc = useTranslations("Common");
   const router = useRouter();
+  const { locale } = useParams();
 
   // We only want rooms, not conference halls for this page
   const rooms = roomCategories.filter((cat) => cat.id !== "conference");
 
+  // const handleBook = (roomId?: number) => {
+  //   if (roomId) {
+  //     router.push(`/booking?room-type=${roomId}`);
+  //   } else {
+  //     router.push("/booking");
+  //   }
+  // };
+
   const handleBook = (roomId?: number) => {
-    if (roomId) {
-      router.push(`/booking?room-type=${roomId}`);
-    } else {
-      router.push("/booking");
-    }
+    const url = roomId
+        ? `/${locale}/booking?room-type=${roomId}`
+        : `/${locale}/booking`;
+
+    router.push(url);
   };
 
   return (

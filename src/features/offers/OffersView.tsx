@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { FiArrowLeft } from "react-icons/fi";
 import { Link } from "@/i18n/navigation";
 import { SpecialOffers } from "@/features/home/components/SpecialOffers";
+import BeSearchForm from "@/components/be-forms/BeSearchForm";
 
 export default function OffersView() {
   const tc = useTranslations("Common");
@@ -32,6 +33,7 @@ export default function OffersView() {
 
       {/* Special Offers Section */}
       <div className="-mt-16 relative z-20">
+        <BeSearchForm extraClass={"block-search--offers"} />
         <SpecialOffers />
       </div>
 

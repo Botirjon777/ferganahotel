@@ -45,7 +45,7 @@ export default function ScrollToTop() {
 
   return (
     <div
-      className={`hidden lg:block fixed bottom-18 left-6 md:left-10 z-50 transition-all duration-500 scroll-to-top ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"}`}
+      className={`hidden lg:block fixed bottom-24 left-6 md:left-10 z-50 transition-all duration-500 scroll-to-top ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"}`}
     >
       <button
         onClick={scrollToTop}
