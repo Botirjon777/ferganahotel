@@ -20,11 +20,11 @@
   },
   "Hero": {
     "titlePart1": "— Fergana Hotel —",
-    "titleEm": "Where Comfort ",
-    "titlePart2": "Meets Elegance",
+    "titleEm": "Your Gateway to",
+    "titlePart2": "the Fergana Valley",
     "reserveStay": "Reserve Your Stay",
     "discoverMore": "Discover More",
-    "welcomeSub": "Experience genuine hospitality and modern comfort in the heart of Fergana. Fergana Hotel — a place you will want to return to."
+    "welcomeSub": "A hotel on Maturidi Street with 22 rooms, an indoor pool, a fitness room and conference halls. A practical base for working in Fergana and exploring Margilan, Rishtan and Kokand."
   },
   "Booking": {
     "checkIn": "Check In",
@@ -48,20 +48,18 @@
     "storyTitleEm": "Around",
     "storyTitle2": "Your Comfort",
     "description1": "Fergana Hotel was founded with a clear purpose: to offer every guest a warm welcome, a well-appointed room, and attentive service. Located in a convenient part of Fergana city, we are a natural choice for both business travelers and those visiting for leisure.",
-    "description2": "Each of our 87 rooms is designed with care — comfortable beds, quality linens, modern amenities, and a calm atmosphere that lets you rest and recharge. At Fergana, we believe good hospitality is about the details that make you feel at home.",
+    "description2": "We have 22 rooms, and every one of them is designed with care — comfortable beds, quality linens, modern amenities, and a calm atmosphere that lets you rest and recharge. At Fergana, we believe good hospitality is about the details that make you feel at home.",
     "stats": {
       "rooms": "Rooms & Suites",
       "dining": "Dining Venues",
-      "stars": "Star Hotel",
       "views": "City Views"
     },
-    "readMore": "Read More",
-    "stars": "3 Stars"
+    "readMore": "Read More"
   },
   "Location": {
     "findUs": "Find Us",
     "heartOfEverything": "At the Heart of Fergana",
-    "subtext": "Our hotel is conveniently located in the heart of Fergana city, near major attractions and main transport arteries. You can easily reach us by car, taxi or public transport. Use the map to build the most convenient route.",
+    "subtext": "Fergana Hotel stands at 30B Maturidi Street, in a quiet neighbourhood a short distance from the centre of Fergana. It is an easy starting point for trips to Margilan, Rishtan and Kokand, and the airport is a short taxi ride away.",
     "address": "Address",
     "addressText": "Fergana region, Fergana city, Moturudiy street 30 B",
     "reservations": "Reservations",
@@ -122,7 +120,7 @@
     "throughOur": "Our",
     "spaces": "Spaces",
     "viewFullGallery": "View Full Gallery",
-    "description": "Browse our selection of rooms, halls, and hotel spaces — each designed with your comfort in mind.",
+    "description": "The pool, conference halls, billiard room and guest rooms of Fergana Hotel — see exactly what the hotel looks like before you book.",
     "roomType": "Room Type",
     "exploreGallery": "Explore Gallery",
     "conferenceLabel": "Conference Hall"
@@ -138,7 +136,7 @@
   },
   "GalleryPage": {
     "title": "Gallery",
-    "subtitle": "Take a look at our hotel, rooms, and facilities.",
+    "subtitle": "Photographs of the rooms, pool, fitness room and conference halls at Fergana Hotel.",
     "all": "All",
     "deluxe": "Deluxe",
     "lux": "Lux",
@@ -191,12 +189,12 @@
     "checkOutTime": "Check-out",
     "checkOutValue": "12:00",
     "cancellationTitle": "Booking cancellation",
-    "cancellationText": "To clarify the conditions and cancellation procedures, please contact the administrator. We will be happy to provide you with all the necessary information and help you with the cancellation process.",
+    "cancellationText": "Cancellation terms depend on the rate you book. Call Fergana Hotel on +998 73 226 00 77 and the front desk will confirm the exact free-cancellation deadline for your reservation.",
     "policyTitle": "Cancellation policy"
   },
   "RoomsPage": {
     "title": "Rooms & Suites",
-    "subtitle": "Find the room that suits you best — comfortable, clean, and well-equipped.",
+    "subtitle": "Seven categories, from a compact single standard to a three-room apartment with a kitchen.",
     "explore": "Explore Room",
     "from": "From",
     "bookNow": "Book Now",
@@ -208,43 +206,43 @@
     "details": {
       "deluxe-king": {
         "title": "Deluxe King Room",
-        "description": "Our Deluxe King Room is a great choice for couples or those who appreciate space and comfort. The room has a large double bed measuring 2.00 × 1.90 m with high quality linens, which will give you a restful and undisturbed sleep.",
+        "description": "A 15 m² Deluxe King with a 2.00 × 1.90 m bed. A compact, well-planned room for two: everything within reach, quality linen and heavy curtains for an undisturbed night.",
         "capacity": "2 Adults",
         "size": "15m²"
       },
       "superior-king": {
         "title": "Superior King Room",
-        "description": "The Superior King Room combines spaciousness and a refined atmosphere. A large King Size bed measuring 2.00 × 1.80 m with high-quality linens ensures a good night's rest, and the tastefully furnished interior creates a comfortable and welcoming environment.",
+        "description": "A generous 25 m² room with a 2.00 × 1.80 m King Size bed. There is space to unpack properly on a longer trip and to work comfortably at the desk.",
         "capacity": "2 Adults",
         "size": "25m²"
       },
       "superior-twin": {
         "title": "Superior Twin Room",
-        "description": "Our Superior Twin Room is designed for the comfort of two guests. The room has two spacious single beds measuring 2.00 × 1.00 m each, with high-quality linens that will ensure a healthy and restful sleep.",
+        "description": "22 m² with two single beds of 2.00 × 1.00 m each — a practical choice for colleagues travelling together or friends who prefer separate beds.",
         "capacity": "2 Adults",
         "size": "22m²"
       },
       "deluxe-twin": {
         "title": "Deluxe Twin Room",
-        "description": "Our Deluxe Twin Room is ideal for friends, colleagues or family members who prefer separate beds. The room has two single beds (1.90 × 1.00 m each) with high-quality linens that ensure a comfortable and restful night's sleep.",
+        "description": "A compact 15 m² room with two 1.90 × 1.00 m beds. The sensible option for two when location and price matter more than extra floor space.",
         "capacity": "2 Adults",
         "size": "15m²"
       },
       "superior-family": {
         "title": "Superior Family Room",
-        "description": "The Superior Family Room is a practical and comfortable choice for families. The spacious room includes one King Size bed (2.10 × 2.00 m) and one single bed (2.10 × 1.00 m), giving everyone their own space.",
+        "description": "A 25 m² family room with a 2.10 × 2.00 m King Size bed and a separate 2.10 × 1.00 m single. Parents and child stay together, each with their own bed.",
         "capacity": "3 Adults",
         "size": "25m²"
       },
       "standart": {
         "title": "Standard Single Room",
-        "description": "A well-suited option for a solo traveler, featuring a comfortable 2.10 × 1.00 m bed and all the essentials for a relaxed and convenient stay.",
+        "description": "A 15 m² room with a 2.10 × 1.00 m bed — the economical choice for a single traveller here on business for a night or two.",
         "capacity": "1 Adult",
         "size": "15m²"
       },
       "apartment": {
         "title": "Apartment",
-        "description": "A spacious three-room apartment designed for maximum comfort. Features separate living areas, multiple TV sets, a fully equipped kitchenette, and a premium bathroom with heated floors.",
+        "description": "A three-room apartment with a fully equipped kitchen, a separate living area, several televisions and a bathroom with underfloor heating. Suited to families or longer stays.",
         "capacity": "3 Adults",
         "size": "3 Rooms"
       }
@@ -252,7 +250,7 @@
   },
   "NewsPage": {
     "title": "News & Events",
-    "subtitle": "Our latest updates, achievements, and announcements.",
+    "subtitle": "News from Fergana Hotel: seasonal offers, events and updates for our guests.",
     "readMore": "Read More",
     "viewCertificate": "View Certificate",
     "sortBy": "Sort by",
@@ -280,19 +278,19 @@
     "title": "Gastrobar",
     "subtitle": "Good Food in a Relaxed Atmosphere",
     "breakfastTitle": "Buffet Breakfast",
-    "breakfastDesc": "Start your day with a delicious and varied buffet breakfast. Every day we offer a wide selection of fresh dishes: hot dishes, fresh vegetables and fruits, pastries, cereals, yoghurts and much more. Whatever your preferences, you will find something to enjoy. Breakfast is available to all guests and is served in a welcoming atmosphere.",
+    "breakfastDesc": "A buffet breakfast every morning: hot dishes, pastries, porridge, fresh fruit and vegetables, yoghurt, tea and coffee. Both Uzbek dishes and familiar European ones are served, and breakfast is open to every guest of the hotel.",
     "discountTitle": "10% Direct Booking Discount",
-    "discountDesc": "Book a room on our official website and get a 10% discount at the hotel's main restaurant. Enjoy good food and a pleasant atmosphere — the offer is valid only for guests who have made a reservation online.",
+    "discountDesc": "Guests who book through the official Fergana Hotel website receive a 10% discount in the hotel restaurant, valid for the whole of their stay.",
     "exquisite": "Quality Cuisine",
-    "exquisiteDesc": "A comfortable setting for your dining experience."
+    "exquisiteDesc": "A quiet dining room for dinner after the working day."
   },
   "Spa": {
     "title": "Fitness & SPA",
-    "subtitle": "Stay Active, Rest Well",
+    "subtitle": "Pool and gym, without leaving the hotel",
     "poolTitle": "Indoor Swimming Pool",
-    "poolDesc": "Relax and unwind in our modern indoor pool. The comfortable water temperature and calm atmosphere make it a great place to rest at any time of year. The pool is open to all hotel guests, but access is only available upon prior reservation to ensure comfort and privacy.",
+    "poolDesc": "The indoor pool at Fergana Hotel is open year round, kept at a comfortable temperature, with visits booked in advance so it never feels crowded. Reserve your slot at the front desk.",
     "fitnessTitle": "Fitness Room",
-    "fitnessDesc": "Keep up with your workout routine even while traveling. Our fitness room is equipped with everything you need for an effective session, from cardio machines to free weights. The spacious and bright room is available throughout the day.",
+    "fitnessDesc": "The gym has cardio machines and free weights and stays open throughout the day — train before breakfast or after you get back from town.",
     "modernCardio": "Cardio Equipment",
     "modernCardioDesc": "Modern machines",
     "strengthArea": "Strength Area",
@@ -300,9 +298,9 @@
   },
   "Meetings": {
     "title": "Meetings & Events",
-    "subtitle": "Professional Spaces for Every Occasion",
+    "subtitle": "Three halls for 22, 32 and 52 people",
     "conferenceTitle": "Conference Rooms",
-    "conferenceDesc": "Flexible spaces suited for business meetings, seminars, and private events. From small group sessions to larger gatherings, our rooms are equipped with the technology and support you need. We offer 22, 32, and 52-person conference rooms.",
+    "conferenceDesc": "The conference halls at Fergana Hotel seat 22, 32 and 52 people — enough range for a small negotiation, a training seminar or a presentation. We help with seating, equipment and coffee breaks.",
     "rooms": {
       "executiveSuite": "Executive Suite",
       "boardroom": "Boardroom",
@@ -326,13 +324,13 @@
     "roomStayTitle": "Services with Room Stay",
     "learnMore": "Learn More",
     "laundryTitle": "Laundry",
-    "laundryDesc": "We offer laundry and ironing services for your convenience. Fast and reliable, so your clothes are always ready when you need them. To place an order and confirm the cost, please contact the administrator.",
+    "laundryDesc": "Laundry and ironing on request. Hand your items to the Fergana Hotel front desk and you will be quoted the price and turnaround straight away; urgent orders are returned the same day.",
     "billiardTitle": "Billiard",
-    "billiardDesc": "Enjoy a game of billiards in the comfortable surroundings of our hotel. A great way to relax after a busy day or spend an evening with friends.",
+    "billiardDesc": "A billiard table in its own area of the hotel — something to do in the evening when you would rather not go out.",
     "wifiTitle": "High-speed Wi-Fi",
-    "wifiDesc": "High-speed Wi-Fi throughout the hotel.",
+    "wifiDesc": "High-speed Wi-Fi in the rooms, the conference halls and the restaurant area.",
     "parkingTitle": "Parking Space",
-    "parkingDesc": "Free parking for our hotel guests.",
+    "parkingDesc": "Free parking on the grounds of Fergana Hotel.",
     "amenitiesTitle": "Amenities",
     "amenities": {
       "tv": "TV set",
@@ -408,7 +406,7 @@
     "spaTitle": "Fitness & SPA",
     "spaDesc": "Modern equipment and a well-equipped fitness area for your workouts.",
     "meetingsTitle": "Meetings & Events",
-    "meetingsDesc": "Fully equipped conference rooms for business meetings and events."
+    "meetingsDesc": "Three conference halls for 22, 32 and 52 people, with projector and sound."
   },
   "DatePicker": {
     "months": [
@@ -461,32 +459,32 @@
     "items": {
       "gastrobar": {
         "title": "Gastrobar",
-        "description": "Enjoy a good meal at our Gastrobar. From a varied buffet breakfast to a full restaurant menu, we serve fresh, well-prepared food in a relaxed setting.",
+        "description": "The hotel restaurant: a buffet breakfast in the morning and a full menu through the day. Guests who book direct receive a 10% discount.",
         "linkText": "Explore Gastrobar →"
       },
       "spa": {
         "title": "Fitness & SPA",
-        "description": "Stay in shape or simply relax. Our fitness room is fully equipped for a solid workout, and the indoor pool is a calm place to unwind after a busy day.",
+        "description": "A gym with cardio machines and free weights, plus an indoor pool with pre-booked sessions — train and unwind without leaving the hotel.",
         "linkText": "Relax & Recharge →"
       },
       "meetings": {
         "title": "Meetings & Events",
-        "description": "Comfortable and well-equipped spaces for business meetings, seminars, and events. Our staff will help you organize everything for a smooth and productive session.",
+        "description": "Three halls for 22, 32 and 52 people for negotiations, seminars and presentations. We help with equipment, seating and coffee breaks.",
         "linkText": "Plan Your Event →"
       },
       "amenities": {
         "title": "Amenities",
-        "description": "Practical and comfortable in-room features for a pleasant stay. From smart home systems to quality toiletries, we cover everything you need.",
+        "description": "Rooms at Fergana Hotel have individually controlled air conditioning, orthopaedic beds, a work desk and a full set of toiletries.",
         "linkText": "View Amenities →"
       },
       "guest_services": {
         "title": "Guest Services",
-        "description": "We make your stay easier with laundry service, 24-hour housekeeping, and a 10% restaurant discount for guests who book directly through our website.",
+        "description": "A 24-hour front desk, laundry, and help with transfers and excursions across the Fergana Valley. Book direct for a 10% discount in the hotel restaurant.",
         "linkText": "Our Services →"
       },
       "pool": {
         "title": "Indoor Pool",
-        "description": "Our indoor pool is a quiet space to relax and refresh. Maintained at a comfortable temperature year-round and available by reservation for all hotel guests.",
+        "description": "The indoor pool is open year round at a comfortable temperature, with visits booked in advance so it never gets crowded.",
         "linkText": "Learn More →"
       }
     }
@@ -551,11 +549,11 @@
   },
   "Meta": {
     "homeTitle": "Fergana Hotel — Luxury Hotel in Fergana, Uzbekistan, Official site",
-    "homeDesc": "Experience genuine hospitality, premium rooms, and modern comfort in the heart of Fergana. Book direct on the official site and save up to 19% — heated indoor pool, fine dining gastrobar, and a perfect central location.",
+    "homeDesc": "Fergana Hotel on Maturidi Street: indoor pool, gym, billiards and conference halls for 22, 32 and 52 people. A practical base for travelling the Fergana Valley. Book direct and save up to 19%.",
     "aboutTitle": "About Us — Fergana Hotel",
     "aboutDesc": "Learn more about Fergana Hotel. Our hospitality standards, check-in policies, guest services, and prime location in Fergana city.",
     "roomsTitle": "Luxury Rooms & Suites — Fergana Hotel",
-    "roomsDesc": "Explore our 63 premium rooms and suites. Individual climate control, orthopedic bedding, high-speed Wi-Fi, and sophisticated design.",
+    "roomsDesc": "22 rooms at Fergana Hotel: 15 m² standard, 22 m² Superior Twin, 25 m² Superior King and family rooms, and a three-room apartment with a kitchen. Air conditioning and high-speed Wi-Fi.",
     "galleryTitle": "Photo Gallery — Fergana Hotel",
     "galleryDesc": "A visual tour of Fergana Hotel: rooms, heated indoor pool, gastrobar, and modern conference facilities.",
     "servicesTitle": "Services & Amenities — Fergana Hotel",

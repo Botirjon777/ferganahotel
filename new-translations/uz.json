@@ -20,11 +20,11 @@
   },
   "Hero": {
     "titlePart1": "— Fergana Hotel —",
-    "titleEm": "qulaylik va nafosat",
-    "titlePart2": "uyg'unligi",
+    "titleEm": "Farg'ona vodiysiga",
+    "titlePart2": "ochiladigan darvoza",
     "reserveStay": "Dam olishni band qiling",
     "discoverMore": "Batafsil ma'lumot",
-    "welcomeSub": "Farg'ona markazida chinakam mehmondo'stlik va zamonaviy qulaylik. FERGANA mehmonxonasi — qaytib kelgingiz keladigan joy."
+    "welcomeSub": "Maturidiy ko'chasidagi mehmonxona: 22 ta xona, yopiq basseyn, fitnes zali va konferens-zallar. Farg'onada ishlash hamda Marg'ilon, Rishton va Qo'qonga sayohat qilish uchun qulay tayanch."
   },
   "Booking": {
     "checkIn": "Kirish",
@@ -48,20 +48,18 @@
     "storyTitleEm": "uchun",
     "storyTitle2": "qurilgan mehmonxona",
     "description1": "Fergana mehmonxonasi aniq bir maqsad bilan tashkil etilgan: har bir mehmonni iliq qabul qilish, qulay xona va e'tiborli xizmat ko'rsatish. Farg'ona shahrining qulay hududida joylashgan bo'lib, ish safarlari va dam olish uchun bir xil darajada mos keladi.",
-    "description2": "Bizning 63 ta xonamizning har biri did bilan jihozlangan — qulay yotoqlar, sifatli choyshab-ko'rpalar, zamonaviy qulayliklar va tinch muhit, dam olishga va kuchni tiklashga yordam beradi. Ferganada biz yaxshi mehmondo'stlik — bu uyda o'zingizni his qilishingizni ta'minlaydigan tafsilotlarga e'tibordan iborat deb hisoblaymiz.",
+    "description2": "Bizda 22 ta xona bor va ularning har biri did bilan jihozlangan — qulay yotoqlar, sifatli choyshab-ko'rpalar, zamonaviy qulayliklar va tinch muhit, dam olishga va kuchni tiklashga yordam beradi. Ferganada biz yaxshi mehmondo'stlik — bu uyda o'zingizni his qilishingizni ta'minlaydigan tafsilotlarga e'tibordan iborat deb hisoblaymiz.",
     "stats": {
       "rooms": "Xonalar va lyukslar",
       "dining": "Ovqatlanish joylari",
-      "stars": "Yulduzli mehmonxona",
       "views": "Shahar manzaralari"
     },
-    "readMore": "Batafsil",
-    "stars": "3 Yulduz"
+    "readMore": "Batafsil"
   },
   "Location": {
     "findUs": "Joylashuv Manzilimiz",
     "heartOfEverything": "Farg'ona markazida",
-    "subtext": "Mehmonxonamiz Farg'ona shahrining qoq markazida, diqqatga sazovor joylar va asosiy transport yo'llari yaqinida joylashgan. Bizga avtomobil, taksi yoki jamoat transportida osonlik bilan yetib kelishingiz mumkin.",
+    "subtext": "Fergana Hotel Maturidiy ko'chasi, 30 B manzilida, Farg'ona markazidan uzoq bo'lmagan tinch hududda joylashgan. Bu yerdan Marg'ilon, Rishton va Qo'qonga chiqish qulay, aeroportga esa taksida oson yetib borasiz.",
     "address": "Manzil",
     "addressText": "Farg'ona viloyati, Farg'ona shahri, Moturudiy ko'chasi 30 B",
     "reservations": "Bron qilish",
@@ -122,7 +120,7 @@
     "throughOur": "Bizning",
     "spaces": "Joylarimiz",
     "viewFullGallery": "To'liq galereyani ko'rish",
-    "description": "Xonalarimiz, zallarimiz va mehmonxona hududlarini ko'rib chiqing.",
+    "description": "Fergana Hotelning basseyni, konferens-zallari, bilyard xonasi va mehmon xonalari — bron qilishdan oldin mehmonxona qanday ko'rinishini ko'rib oling.",
     "roomType": "Xona turi",
     "exploreGallery": "Galereyani ko'rish",
     "conferenceLabel": "Konferensiya zali"
@@ -138,7 +136,7 @@
   },
   "GalleryPage": {
     "title": "Galereya",
-    "subtitle": "Mehmonxonamiz, xonalarimiz va infratuzilmamiz bilan tanishing.",
+    "subtitle": "Fergana Hotel xonalari, basseyni, fitnes zali va konferens-zallari fotosuratlari.",
     "all": "Barchasi",
     "deluxe": "Deluxe",
     "lux": "Lux",
@@ -191,12 +189,12 @@
     "checkOutTime": "Chiqish vaqti",
     "checkOutValue": "12:00",
     "cancellationTitle": "Bandlovni bekor qilish",
-    "cancellationText": "Bekor qilish shartlari va tartibi haqida ma'lumot olish uchun administrator bilan bog'laning. Biz sizga barcha kerakli ma'lumotlarni mamnuniyat bilan taqdim etamiz.",
+    "cancellationText": "Bekor qilish shartlari tanlangan tarifga bog'liq. Fergana Hotelga +998 73 226 00 77 raqamiga qo'ng'iroq qiling — ma'mur broningiz bo'yicha bepul bekor qilishning aniq muddatini aytadi.",
     "policyTitle": "Bekor qilish siyosati"
   },
   "RoomsPage": {
     "title": "Xonalar va lyukslar",
-    "subtitle": "O'zingizga mos xonani toping — qulay, toza va yaxshi jihozlangan.",
+    "subtitle": "Yetti toifa — bir kishilik ixcham standartdan oshxonali uch xonali apartamentgacha.",
     "explore": "Xonani ko'rish",
     "from": "dan",
     "bookNow": "Band qilish",
@@ -208,43 +206,43 @@
     "details": {
       "deluxe-king": {
         "title": "King-size karavotli Deluxe xona",
-        "description": "Bizning King-size karavotli Deluxe xonamiz juftliklar yoki kenglik va qulaylikni qadrlaydigan mehmonlar uchun ajoyib tanlovdir. Xonada yuqori sifatli choyshab-ko'rpalarga ega 2.00 × 1.90 m o'lchamdagi katta ikki kishilik karavot mavjud.",
+        "description": "15 m² li Delyuks King, 2.00 × 1.90 m karavot bilan. Ikki kishi uchun ixcham va puxta o'ylangan xona: hamma narsa qo'l ostida, sifatli choyshab va qalin pardalar tinch uyqu uchun.",
         "capacity": "2 Kattalar",
         "size": "15m²"
       },
       "superior-king": {
         "title": "King-size karavotli Superior xona",
-        "description": "Superior King xonasi kenglik va qulay muhitni o'zida mujassam etgan. Yuqori sifatli choyshablarga ega 2.00 × 1.80 m o'lchamdagi King Size karavoti yaxshi tungi dam olishni ta'minlaydi, o'ylab jihozlangan interyeri esa qulaylik va uyg'unlik muhitini yaratadi.",
+        "description": "2.00 × 1.80 m King Size karavotli 25 m² li keng xona. Uzoq safarda narsalarni bemalol joylashtirish va stol ortida qulay ishlash uchun joy yetarli.",
         "capacity": "2 Kattalar",
         "size": "25m²"
       },
       "superior-twin": {
         "title": "Ikki kishilik Superior xona",
-        "description": "Bizning Superior Twin xonamiz ikki mehmonning qulayligi uchun mo'ljallangan. Xonada har birining o'lchami 2.00 × 1.00 m bo'lgan ikkita keng bir kishilik karavot mavjud bo'lib, yuqori sifatli choyshab-ko'rpalar bilan ta'minlangan.",
+        "description": "22 m² va har biri 2.00 × 1.00 m bo'lgan ikkita bir kishilik karavot — birga safarga chiqqan hamkasblar yoki alohida karavotni afzal ko'radigan do'stlar uchun qulay.",
         "capacity": "2 Kattalar",
         "size": "22m²"
       },
       "deluxe-twin": {
         "title": "Ikki kishilik Deluxe xona",
-        "description": "Bizning Deluxe Twin xonamiz alohida karavotlarda qolishni afzal ko'radigan do'stlar, hamkasblar yoki oila a'zolari uchun juda mos keladi. Xonada har birining o'lchami 1.90 × 1.00 m bo'lgan ikkita bir kishilik karavot mavjud, yuqori sifatli choyshablar bilan ta'minlangan.",
+        "description": "1.90 × 1.00 m li ikkita karavotli 15 m² li ixcham xona. Ortiqcha kvadrat metrdan ko'ra joylashuv va narx muhimroq bo'lganda — ikki kishi uchun oqilona tanlov.",
         "capacity": "2 Kattalar",
         "size": "15m²"
       },
       "superior-family": {
         "title": "Superior oilaviy xona",
-        "description": "Superior oilaviy xonasi oilalar uchun amaliy va qulay tanlovdir. Keng xonada bitta King Size karavot (2.10 × 2.00 m) va bitta bir kishilik karavot (2.10 × 1.00 m) mavjud — har bir mehmon uchun o'z joyi bor.",
+        "description": "25 m² li oilaviy xona: 2.10 × 2.00 m King Size karavot va alohida 2.10 × 1.00 m bir kishilik karavot. Ota-ona va bola birga joylashadi, lekin har birining o'z o'rni bor.",
         "capacity": "3 Kattalar",
         "size": "25m²"
       },
       "standart": {
         "title": "Standart bir kishilik xona",
-        "description": "Yolg'iz sayohatchi uchun qulay variant: 2.10 × 1.00 m o'lchamdagi yotoq, tinch dam olish uchun barcha zaruriy jihozlar.",
+        "description": "2.10 × 1.00 m karavotli 15 m² li xona — bir-ikki kunga ish yuzasidan kelgan yolg'iz mehmon uchun tejamkor variant.",
         "capacity": "1 Kattalar",
         "size": "15m²"
       },
       "apartment": {
         "title": "Apartament",
-        "description": "Maksimal qulaylik uchun mo'ljallangan keng uch xonali apartament. Alohida yashash joylari, bir nechta televizor, to'liq jihozlangan oshxona va isitilgan polga ega zamonaviy vanna xonasi.",
+        "description": "To'liq jihozlangan oshxona, alohida mehmonxona, bir nechta televizor va issiq poli bo'lgan hammomga ega uch xonali apartament. Oila yoki uzoq muddatli yashash uchun mos.",
         "capacity": "3 Kattalar",
         "size": "3 xona"
       }
@@ -252,7 +250,7 @@
   },
   "NewsPage": {
     "title": "Yangiliklar va tadbirlar",
-    "subtitle": "Eng so'nggi yangilanishlarimiz, yutuqlarimiz va e'lonlarimiz.",
+    "subtitle": "Fergana Hotel yangiliklari: mavsumiy takliflar, tadbirlar va mehmonlar uchun ma'lumotlar.",
     "readMore": "Batafsil",
     "viewCertificate": "Sertifikatni ko'rish",
     "sortBy": "Saralash",
@@ -280,19 +278,19 @@
     "title": "Gastrobar",
     "subtitle": "Yaxshi taom, qulay muhit",
     "breakfastTitle": "Nonushta «Shved stoli»",
-    "breakfastDesc": "Kuningizni mazali va xilma-xil nonushta bilan boshlang. Har kuni biz yangi tayyorlangan taomlarning keng tanlovini taqdim etamiz: issiq taomlar, yangi sabzavot va mevalar, pishiriqlar, bo'tqalar, yogurtlar va boshqalar. Tanlovingizdan qat'i nazar, yoqadigan narsa topasiz. Nonushta barcha mehmonlar uchun mavjud va do'stona muhitda taqdim etiladi.",
+    "breakfastDesc": "Har kuni ertalab «shved stoli» nonushta: issiq taomlar, pishiriqlar, bo'tqalar, yangi meva va sabzavotlar, yogurt, choy va qahva. O'zbek taomlari ham, odatiy Yevropa taomlari ham bor. Nonushta mehmonxonaning barcha mehmonlari uchun.",
     "discountTitle": "To'g'ridan-to'g'ri band qilishda 10% chegirma",
-    "discountDesc": "Xonani rasmiy saytimizda band qiling va mehmonxonaning asosiy restoranida 10% chegirmaga ega bo'ling. Mazali taom va yoqimli muhit — taklif faqat onlayn band qilgan mehmonlar uchun amal qiladi.",
+    "discountDesc": "Fergana Hotelning rasmiy saytida bron qilgan mehmonlar mehmonxona restoranida 10% chegirmaga ega bo'ladi. Chegirma yashash davrining butun davomida amal qiladi.",
     "exquisite": "Sifatli taomlar",
-    "exquisiteDesc": "Ovqatlanish uchun qulay muhit."
+    "exquisiteDesc": "Ish kunidan keyingi kechki ovqat uchun tinch zal."
   },
   "Spa": {
     "title": "Fitnes va SPA",
-    "subtitle": "Faol bo'ling, yaxshi dam oling",
+    "subtitle": "Basseyn va fitnes — mehmonxonadan chiqmasdan",
     "poolTitle": "Yopiq suzish havzasi",
-    "poolDesc": "Zamonaviy yopiq suzish havzamizda dam oling. Qulay suv harorati va tinch muhit yilning istalgan vaqtida dam olish uchun yaxshi sharoit yaratadi. Havza barcha mehmonlar uchun ochiq, ammo oldindan band qilish talab etiladi.",
+    "poolDesc": "Fergana Hotelning yopiq basseyni yil davomida ishlaydi: suv harorati qulay, tashrif oldindan yozilish bo'yicha, shuning uchun zalda tig'iz bo'lmaydi. Yozilishni ma'mur orqali amalga oshirasiz.",
     "fitnessTitle": "Fitnes zal",
-    "fitnessDesc": "Sayohat paytida ham mashq qilishni to'xtatmang. Fitnes zalimizda samarali mashg'ulot uchun zarur bo'lgan kardio jihozlari va erkin og'irliklar mavjud. Zal kun davomida ochiq.",
+    "fitnessDesc": "Kardio trenajyorlar va erkin og'irliklar bilan jihozlangan fitnes zali kun bo'yi ochiq — nonushtagacha yoki shahardan qaytgach mashq qilishingiz mumkin.",
     "modernCardio": "Kardio jihozlari",
     "modernCardioDesc": "Zamonaviy jihozlar",
     "strengthArea": "Kuch mashqlari",
@@ -300,9 +298,9 @@
   },
   "Meetings": {
     "title": "Uchrashuvlar va tadbirlar",
-    "subtitle": "Har qanday tadbir uchun professional joylar",
+    "subtitle": "22, 32 va 52 o'rinli uchta zal",
     "conferenceTitle": "Konferensiya zallari",
-    "conferenceDesc": "Biznes uchrashuvlari, seminarlar va xususiy tadbirlar uchun moslashuvchan joylar. Kichik guruhlardan tortib kattaroq tadbirlargacha — zalamiz kerakli texnika va qurulmalar bilan jihozlangan. 22, 32 va 52 kishilik konferensiya zallari mavjud.",
+    "conferenceDesc": "Fergana Hotel konferens-zallari 22, 32 va 52 kishini sig'diradi — kichik muzokaradan o'quv seminari va taqdimotgacha. O'rindiqlarni joylashtirish, texnika va kofe-breyklarni tashkil qilishda yordam beramiz.",
     "rooms": {
       "executiveSuite": "Ekspertlar zali",
       "boardroom": "Muzokaralar xonasi",
@@ -326,13 +324,13 @@
     "roomStayTitle": "Yashash davridagi xizmatlar",
     "learnMore": "Batafsil",
     "laundryTitle": "Kir yuvish xizmati",
-    "laundryDesc": "Kiyimlaringizni yuvish va dazmollash xizmatini taqdim etamiz — tez va sifatli. Narxni bilish va buyurtma berish haqida ma'lumot uchun administrator bilan bog'laning.",
+    "laundryDesc": "So'rov bo'yicha kir yuvish va dazmollash. Kiyimlarni Fergana Hotel ma'muriga topshiring — narx va muddat darhol aytiladi, shoshilinch buyurtmalar o'sha kuni qaytariladi.",
     "billiardTitle": "Bilyard",
-    "billiardDesc": "Mehmonxonamizning qulay muhitida bilyard o'ynashdan zavqlaning. Band kundan keyin dam olish yoki do'stlar bilan vaqt o'tkazish uchun ajoyib joy.",
+    "billiardDesc": "Mehmonxonaning alohida qismidagi bilyard stoli — hech qayerga chiqishni istamagan kechalar uchun mashg'ulot.",
     "wifiTitle": "Yuqori tezlikdagi Wi-Fi",
-    "wifiDesc": "Mehmonxona bo'ylab yuqori tezlikdagi Wi-Fi.",
+    "wifiDesc": "Xonalarda, konferens-zallarda va restoran hududida yuqori tezlikdagi Wi-Fi.",
     "parkingTitle": "Avtoturargoh",
-    "parkingDesc": "Mehmonxonamiz mehmonlari uchun bepul avtoturargoh.",
+    "parkingDesc": "Fergana Hotel hududida bepul avtoturargoh.",
     "amenitiesTitle": "Qulayliklar",
     "amenities": {
       "tv": "Televizor",
@@ -408,7 +406,7 @@
     "spaTitle": "Fitnes va SPA",
     "spaDesc": "Zamonaviy jihozlar va fitnes zal.",
     "meetingsTitle": "Uchrashuvlar va tadbirlar",
-    "meetingsDesc": "Biznes uchrashuvlari va tadbirlar uchun to'liq jihozlangan konferensiya zallari."
+    "meetingsDesc": "Proyektor va ovoz tizimi bilan jihozlangan 22, 32 va 52 o'rinli uchta konferens-zal."
   },
   "DatePicker": {
     "months": [
@@ -461,32 +459,32 @@
     "items": {
       "gastrobar": {
         "title": "Gastrobar",
-        "description": "Gastrobarimizda yaxshi ovqatdan zavqlaning. Xilma-xil shved stoli nonushtasidan to to'liq restoran menyusigacha — hammasi yangi mahsulotlardan tayyorlanadi.",
+        "description": "Mehmonxona restorani: ertalab «shved stoli» nonushta va kun davomida to'liq menyu. To'g'ridan-to'g'ri bron qilgan mehmonlarga 10% chegirma.",
         "linkText": "Gastrobarga tashrif →"
       },
       "spa": {
         "title": "Fitnes va SPA",
-        "description": "Mashq qiling yoki shunchaki dam oling. Fitnes zalimiz to'liq jihozlangan, yopiq havzamiz esa band kundan keyin tinchlanish uchun qulay joy.",
+        "description": "Kardio va erkin og'irliklar bilan jihozlangan fitnes zali hamda oldindan yozilish asosidagi yopiq basseyn — mehmonxonadan chiqmasdan mashq qiling va dam oling.",
         "linkText": "Dam olish →"
       },
       "meetings": {
         "title": "Uchrashuvlar va tadbirlar",
-        "description": "Ishbilarmonlik uchrashuvlari, seminarlar va tadbirlar uchun qulay va yaxshi jihozlangan joylar. Xodimlarimiz hamma narsani tashkil etishga yordam beradi.",
+        "description": "Muzokara, seminar va taqdimotlar uchun 22, 32 va 52 o'rinli uchta zal. Texnika, o'rindiqlar va kofe-breyklarda yordam beramiz.",
         "linkText": "Tadbiringizni rejalashtiring →"
       },
       "amenities": {
         "title": "Qulayliklar",
-        "description": "Yoqimli qolish uchun o'ylab topilgan amaliy va qulay xona jihozlari. Aqlli uy tizimlaridan sifatli gigiyena vositalarigacha — hamma narsa mavjud.",
+        "description": "Fergana Hotel xonalarida alohida boshqariladigan konditsioner, ortopedik karavotlar, ish stoli va to'liq gigiyena vositalari to'plami bor.",
         "linkText": "Qulayliklarni ko'rish →"
       },
       "guest_services": {
         "title": "Mehmonlar uchun xizmatlar",
-        "description": "Qolishingizni qulayroq qilamiz: kir yuvish, 24 soatlik xizmat va to'g'ridan-to'g'ri band qilganlarga asosiy restoranda 10% chegirma.",
+        "description": "Kecha-kunduz ishlaydigan qabulxona, kir yuvish xizmati hamda transfer va Farg'ona vodiysi bo'ylab ekskursiyalarda yordam. To'g'ridan-to'g'ri bron qilsangiz, mehmonxona restoranida 10% chegirma.",
         "linkText": "Bizning xizmatlarimiz →"
       },
       "pool": {
         "title": "Yopiq suzish havzasi",
-        "description": "Yopiq havzamiz dam olish va yangilanish uchun tinch joy. Yil davomida qulay suv harorati saqlanadi, barcha mehmonlar uchun oldindan band qilish orqali kirish mumkin.",
+        "description": "Yopiq basseyn yil davomida qulay haroratda ishlaydi, tashrif oldindan yozilish bo'yicha — shuning uchun zalda tig'iz bo'lmaydi.",
         "linkText": "Batafsil →"
       }
     }
@@ -551,11 +549,11 @@
   },
   "Meta": {
     "homeTitle": "Fergana Hotel — Farg'ona shahridagi zamonaviy mehmonxona, rasmiy sayt",
-    "homeDesc": "Farg'ona markazidagi Fergana Hotelda haqiqiy mehmon kutish, premium xonalar va zamonaviy qulaylik. To'g'ridan-to'g'ri band qiling va 19% gacha tejang — isitilgan bassein, gastrobar va qulay joylashuv.",
+    "homeDesc": "Maturidiy ko'chasidagi Fergana Hotel: yopiq basseyn, fitnes zali, bilyard va 22, 32 hamda 52 o'rinli konferens-zallar. Farg'ona vodiysi bo'ylab sayohat uchun qulay tayanch. To'g'ridan-to'g'ri bron qiling va 19% gacha tejang.",
     "aboutTitle": "Biz haqimizda — Fergana Hotel",
     "aboutDesc": "Fergana Hotel haqida ko'proq bilib oling: mehmondo'stlik standartlari, kirish-chiqish siyosati va joylashuv.",
     "roomsTitle": "Xonalar va lyukslar — Fergana Hotel",
-    "roomsDesc": "Fergana Hoteldagi 63 ta premium xona va lyuksni ko'ring. Individual iqlim nazorati, ortopedik to'shak va tez Wi-Fi.",
+    "roomsDesc": "Fergana Hotelning 22 ta xonasi: 15 m² standart, 22 m² Superior Twin, 25 m² Superior King va oilaviy xonalar, oshxonali uch xonali apartament. Konditsioner va yuqori tezlikdagi Wi-Fi.",
     "galleryTitle": "Fotogalereya — Fergana Hotel",
     "galleryDesc": "Fergana Hotelning xonalari, isitilgan basseini, gastrobari va konferens-zallarining foto-ekskursiyasini ko'ring.",
     "servicesTitle": "Xizmatlar va qulayliklar — Fergana Hotel",

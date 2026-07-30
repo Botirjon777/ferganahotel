@@ -52,9 +52,8 @@ export const newsItems: NewsItem[] = [
 ];
 
 export const stats = [
-  { num: "63", key: "rooms" },
+  { num: "22", key: "rooms" },
   { num: "4", key: "dining" },
-  { num: "★★★", key: "stars" },
   { num: "∞", key: "views" },
 ];
 
