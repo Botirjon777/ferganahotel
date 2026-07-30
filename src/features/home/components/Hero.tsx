@@ -62,7 +62,7 @@ export function Hero() {
       {/* Main Content Area */}
       <div className="relative z-2 text-center px-4 md:px-6 max-w-[1160px] w-full flex flex-col items-center pt-20 md:pt-24 md:mb-35">
         <div className="max-w-[900px] mb-5 md:mb-10">
-          <h1 className="font-cormorant text-5xl md:text-[90px] font-light leading-[0.9] text-cream mb-2.5 md:mb-5 opacity-0 animate-[fadeUp_0.8s_0.5s_forwards]">
+          <h1 className="font-cormorant text-[clamp(1.875rem,8.5vw,3rem)] md:text-[90px] font-light leading-[0.95] md:leading-[0.9] text-cream mb-2.5 md:mb-5 opacity-0 animate-[fadeUp_0.8s_0.5s_forwards]">
             {t("titlePart1")}{" "}
             <em className="italic text-gold">
               <br />
