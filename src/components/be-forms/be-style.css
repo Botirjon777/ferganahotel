@@ -14,13 +14,48 @@
 }
 
 #block-search {
+    max-width: 1160px;
+    width: calc(100% - 30px);
+    margin: 10px auto;
+    background: #FAF8F2;
+    border: 1px solid #D5C6AE;
+    border-radius: 12px;
+    min-height: 153px;
+}
+
+/* Homepage: pull the form up so it sits over the bottom of the hero. */
+#block-search.block-search--main {
+    position: relative;
+    z-index: 3;
+    margin: -210px auto 40px auto;
+}
+
+/* Offers page: the wrapper already lifts the block with -mt-16. */
+#block-search.block-search--offers {
+    position: relative;
+    z-index: 3;
+    margin-top: 80px;
+}
+
+/* Added by BeSearchForm once the form scrolls past the top of the viewport. */
+#block-search.block-search--fixed {
     position: fixed;
+    top: 0;
+    z-index: 99;
     width: 100%;
-    bottom: 0;
-    z-index: 100;
+    max-width: 100%;
+    margin: 80px 0 0 0;
     background: rgba(250, 248, 242, 0.95);
-    box-shadow: 0 -3px 26px rgba(0, 0, 0, 0.06);
+    border: none;
+    border-top: 1px solid #D5C6AE;
+    border-radius: 0;
+    box-shadow: 0 4px 17.6px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
+}
+
+#block-search.block-search--fixed .be-container {
+    max-width: 1200px;
+    padding: 0 20px;
 }
 
 .be-container {
@@ -35,27 +70,20 @@ body:has(#be-booking-form) .scroll-to-top {
     display: none;
 }
 
-body:not(body:has(#be-booking-form)) {
-    padding-bottom: 93px;
+@media screen and (max-width: 1279px) {
+    #block-search.block-search--main:not(.block-search--fixed) {
+        margin: -100px auto 10px auto;
+    }
 }
 
-@media screen and (max-width: 1220px) {
-    #block-search {
+@media screen and (max-width: 767px) {
+    #block-search.block-search--main {
         position: static;
-        width: calc(100% - 30px);
         margin: 10px auto;
-        background: #FAF8F2;
-        box-shadow: none;
-        backdrop-filter: none;
-        border: 1px solid #D5C6AE;
-        border-radius: 12px;
     }
 
-    #block-search.block-search--offers {
-        margin-top: 80px;
-    }
-
-    body:not(body:has(#be-booking-form)) {
-        padding-bottom: 0;
+    .be-container {
+        min-height: 380px;
+        padding: 0 15px;
     }
 }
