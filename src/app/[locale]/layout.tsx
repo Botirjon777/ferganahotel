@@ -21,7 +21,7 @@ const jsonLd = {
   description:
     "Experience genuine hospitality, premium rooms, and modern comfort in the heart of Fergana.",
   url: "https://ferganahotel.uz/uz",
-  telephone: "+998732260077",
+  telephone: "+998558070777",
   email: "ferghanahotel@gmail.com",
   checkinTime: "14:00",
   checkoutTime: "12:00",
@@ -50,8 +50,8 @@ const jsonLd = {
   },
   priceRange: "$$",
   sameAs: [
-    "https://www.instagram.com/safir_hotell/",
-    "https://t.me/safirhotell",
+    "https://www.instagram.com/fergana_hotell/",
+    "https://t.me/ferghana_hotel",
   ],
   amenityFeature: [
     { "@type": "LocationFeatureSpecification", name: "Free Wi-Fi", value: true },

@@ -64,8 +64,8 @@
     padding: 0 30px;
 }
 
-body:has(#be-booking-form) a[href="https://www.instagram.com/safir_hotell/"],
-body:has(#be-booking-form) a[href="https://t.me/safirhotell"],
+body:has(#be-booking-form) a[href="https://www.instagram.com/fergana_hotell/"],
+body:has(#be-booking-form) a[href="https://t.me/ferghana_hotel"],
 body:has(#be-booking-form) .scroll-to-top {
     display: none;
 }

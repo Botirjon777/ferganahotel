@@ -50,9 +50,9 @@ const reviewsJsonLd = {
   },
   // Review profiles where guests can read and write reviews
   sameAs: [
-    "https://www.google.com/maps/place//data=!4m3!3m2!1s0x38bb8500207fb19b:0xaf46b23a21e55fb5!12e1",
-    "https://yandex.uz/maps/org/safir_hotel/126362646807/",
-    "https://www.tripadvisor.com/Hotel_Review-g788138-d28863252-Safir_Hotel-Fergana_Fergana_Province.html",
+    "https://g.page/r/CcZVshSCrgGAEBM/review",
+    "https://yandex.uz/maps/org/151678975237/",
+    "https://www.tripadvisor.com/Hotel_Review-g788138-d23266096-Fergana_Hotel-Fergana_Fergana_Province.html",
   ],
 };
 

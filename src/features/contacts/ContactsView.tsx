@@ -5,6 +5,7 @@ import { MobileSidebar } from "@/components/layout/MobileSidebar";
 import { Footer } from "@/components/layout/Footer";
 import { useTranslations } from "next-intl";
 import { FiMapPin, FiPhone, FiMail, FiClock, FiArrowLeft, FiExternalLink } from "react-icons/fi";
+import { FaInstagram, FaTelegram } from "react-icons/fa6";
 import { Link } from "@/i18n/navigation";
 import BeSearchForm from "@/components/be-forms/BeSearchForm";
 import { HotelMap } from "@/components/ui/HotelMap";
@@ -110,6 +111,44 @@ export default function ContactsView() {
                 <span className="text-sm text-text-mid font-light leading-relaxed">
                   {t("checkInOutValue")}
                 </span>
+              </div>
+            </div>
+
+            <div className="flex gap-5 items-start">
+              <div className="w-12 h-12 bg-gold/10 text-gold rounded-full flex items-center justify-center shrink-0">
+                <FaInstagram className="w-5 h-5" />
+              </div>
+              <div className="pt-1">
+                <strong className="block text-[14px] tracking-[1px] text-text-dark mb-1 font-normal">
+                  Instagram
+                </strong>
+                <a
+                  href="https://www.instagram.com/fergana_hotell/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-text-mid font-light leading-relaxed hover:text-gold transition-colors"
+                >
+                  @fergana_hotell
+                </a>
+              </div>
+            </div>
+
+            <div className="flex gap-5 items-start">
+              <div className="w-12 h-12 bg-gold/10 text-gold rounded-full flex items-center justify-center shrink-0">
+                <FaTelegram className="w-5 h-5" />
+              </div>
+              <div className="pt-1">
+                <strong className="block text-[14px] tracking-[1px] text-text-dark mb-1 font-normal">
+                  Telegram
+                </strong>
+                <a
+                  href="https://t.me/ferghana_hotel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-text-mid font-light leading-relaxed hover:text-gold transition-colors"
+                >
+                  @ferghana_hotel
+                </a>
               </div>
             </div>
           </div>

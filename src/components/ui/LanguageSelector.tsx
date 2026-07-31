@@ -6,9 +6,9 @@ import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
 const languages: { code: string; label: string; flag: string }[] = [
-  { code: "en", label: "EN", flag: "https://flagcdn.com/w20/gb.png" },
-  { code: "ru", label: "RU", flag: "https://flagcdn.com/w20/ru.png" },
-  { code: "uz", label: "UZ", flag: "https://flagcdn.com/w20/uz.png" },
+  { code: "en", label: "EN", flag: "/images/flags/gb.svg" },
+  { code: "ru", label: "RU", flag: "/images/flags/ru.svg" },
+  { code: "uz", label: "UZ", flag: "/images/flags/uz.svg" },
 ];
 
 export default function LanguageSelector({

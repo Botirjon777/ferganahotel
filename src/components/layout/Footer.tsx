@@ -32,7 +32,7 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <a
               className="w-12 h-12 border border-cream/20 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 text-cream/60 hover:border-gold hover:text-gold hover:bg-gold/10"
-              href="https://www.instagram.com/safir_hotell/"
+              href="https://www.instagram.com/fergana_hotell/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -41,7 +41,7 @@ export function Footer() {
             </a>
             <a
               className="w-12 h-12 border border-cream/20 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 text-cream/60 hover:border-gold hover:text-gold hover:bg-gold/10"
-              href="https://t.me/safirhotell"
+              href="https://t.me/ferghana_hotel"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Telegram"
@@ -105,7 +105,7 @@ export function Footer() {
             <div className="flex gap-2.5">
               <a
                 className="w-9 h-9 border border-cream/20 rounded-full flex items-center justify-center transition-all duration-300 text-cream/50 hover:border-gold hover:text-gold"
-                href="https://www.instagram.com/safir_hotell/"
+                href="https://www.instagram.com/fergana_hotell/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -114,7 +114,7 @@ export function Footer() {
               </a>
               <a
                 className="w-9 h-9 border border-cream/20 rounded-full flex items-center justify-center transition-all duration-300 text-cream/50 hover:border-gold hover:text-gold"
-                href="https://t.me/safirhotell"
+                href="https://t.me/ferghana_hotel"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Telegram"
