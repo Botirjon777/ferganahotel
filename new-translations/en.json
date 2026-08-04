@@ -63,13 +63,15 @@
     "address": "Address",
     "addressText": "Fergana region, Fergana city, Moturudiy street 30 B",
     "reservations": "Reservations",
-    "phone": "+998 94 555 00 99",
+    "phone": "+998 55 807 07 77",
     "email": "Email",
     "emailAddress": "ferghanahotel@gmail.com",
     "checkInOut": "Check-in / Check-out",
     "checkInOutValue": "From 14:00 / Until 12:00",
     "fromPrice": "from <b>{price} UZS</b>",
-    "bookNow": "Book Now"
+    "bookNow": "Book Now",
+    "phoneTelegram": "+998 94 555 00 99",
+    "telegramLabel": "Telegram"
   },
   "ImageBanner": {
     "featuredAmenities": "Featured Amenities",
@@ -189,7 +191,7 @@
     "checkOutTime": "Check-out",
     "checkOutValue": "12:00",
     "cancellationTitle": "Booking cancellation",
-    "cancellationText": "Cancellation terms depend on the rate you book. Call Fergana Hotel on +998 94 555 00 99 and the front desk will confirm the exact free-cancellation deadline for your reservation.",
+    "cancellationText": "Cancellation terms depend on the rate you book. Call Fergana Hotel on +998 55 807 07 77 and the front desk will confirm the exact free-cancellation deadline for your reservation.",
     "policyTitle": "Cancellation policy"
   },
   "RoomsPage": {
@@ -567,7 +569,7 @@
     "bookingTitle": "Online reservation Fergana Hotel, Fergana - Official site",
     "bookingDesc": "Reserve on the official Fergana Hotel website and save 10% instantly — register to save up to 19%. Best direct-booking rates guaranteed.",
     "contactsTitle": "Contacts — Fergana Hotel",
-    "contactsDesc": "Fergana Hotel address: Moturudiy street 30 B, Fergana region, Fergana. Phone: +998 94 555 00 99. Check-in from 14:00, check-out by 12:00.",
+    "contactsDesc": "Fergana Hotel address: Moturudiy street 30 B, Fergana region, Fergana. Phone: +998 55 807 07 77, +998 94 555 00 99 (Telegram). Check-in from 14:00, check-out by 12:00.",
     "reviewsTitle": "Guest Reviews & Ratings — Fergana Hotel",
     "reviewsDesc": "Read verified guest reviews for Fergana Hotel — ratings for service, cleanliness, location, comfort, and value. Share your own experience on Google Maps, Yandex Maps, or Tripadvisor.",
     "newsTitle": "News & Events — Fergana Hotel",

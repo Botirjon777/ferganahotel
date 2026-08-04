@@ -46,9 +46,16 @@ export function Location() {
                 </strong>
                 <a
                   href={`tel:${t("phone").replace(/\s/g, "")}`}
-                  className="text-sm text-text-mid font-light leading-relaxed hover:text-gold transition-colors"
+                  className="block text-sm text-text-mid font-light leading-relaxed hover:text-gold transition-colors"
                 >
                   {t("phone")}
+                </a>
+                <a
+                  href={`tel:${t("phoneTelegram").replace(/\s/g, "")}`}
+                  className="block text-sm text-text-mid font-light leading-relaxed hover:text-gold transition-colors"
+                >
+                  {t("phoneTelegram")}{" "}
+                  <span className="text-text-mid/60">({t("telegramLabel")})</span>
                 </a>
               </div>
             </div>

@@ -21,7 +21,7 @@ const jsonLd = {
   description:
     "Experience genuine hospitality, premium rooms, and modern comfort in the heart of Fergana.",
   url: "https://ferganahotel.uz/uz",
-  telephone: "+998945550099",
+  telephone: "+998558070777",
   email: "ferghanahotel@gmail.com",
   checkinTime: "14:00",
   checkoutTime: "12:00",
