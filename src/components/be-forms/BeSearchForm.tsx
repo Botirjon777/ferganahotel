@@ -36,6 +36,7 @@ export default function BeSearchForm({ extraClass }: { extraClass?: string }) {
 
     const NAVBAR_HEIGHT = 80; // the fixed navbar the bar docks beneath
     const MIN_WIDTH = 1200;   // below this the bar stays in normal flow
+    const MIN_GAP = 40;       // smallest space the block may leave below itself
 
     // Stands in for the block while it is lifted out into position: fixed.
     // It mirrors the block's box exactly - height plus both margins - rather
@@ -58,6 +59,19 @@ export default function BeSearchForm({ extraClass }: { extraClass?: string }) {
 
     // Only meaningful while the block is still in normal flow.
     const measure = () => {
+      // On the homepage a negative top margin lifts the block over the hero.
+      // The widget's height varies by locale, and whenever it is shorter than
+      // that lift the block's net contribution to flow turns negative and drags
+      // the following section up behind the hero. Pad the bottom margin so the
+      // contribution never falls below MIN_GAP, whatever the widget's height.
+      const lift = parseFloat(window.getComputedStyle(blockSearch).marginTop);
+      if (lift < 0) {
+        const height = blockSearch.getBoundingClientRect().height;
+        blockSearch.style.marginBottom = `${Math.max(MIN_GAP, MIN_GAP - height - lift)}px`;
+      } else {
+        blockSearch.style.marginBottom = '';
+      }
+
       const styles = window.getComputedStyle(blockSearch);
       const rect = blockSearch.getBoundingClientRect();
       // Dock exactly as the block's top meets the underside of the navbar,
@@ -116,13 +130,43 @@ export default function BeSearchForm({ extraClass }: { extraClass?: string }) {
     };
   }, []);
 
+  useEffect(() => {
+    const block = document.querySelector('#block-search') as HTMLElement | null;
+    const container = document.getElementById('be-search-form');
+    if (!block || !container) return;
+
+    // The height reservation exists only to stop the page jumping while the
+    // widget loads. Once it has rendered, the reservation has to go: the
+    // Russian widget is the tallest, so keeping it would leave dead space in
+    // every other locale.
+    const hasWidget = () =>
+      Array.from(container.children).some(
+        (el) => !el.hasAttribute('data-be-placeholder'),
+      );
+
+    const markLoaded = () => {
+      if (!hasWidget()) return false;
+      block.classList.add('block-search--loaded');
+      return true;
+    };
+
+    block.classList.remove('block-search--loaded');
+    if (markLoaded()) return;
+
+    const mo = new MutationObserver(() => {
+      if (markLoaded()) mo.disconnect();
+    });
+    mo.observe(container, { childList: true, subtree: true });
+    return () => mo.disconnect();
+  }, [locale]);
+
   return (
       <div id="block-search" className={`block-search ${extraClass || ""}`}>
         <div id="be-search-form" className="be-container">
-          <div className="flex items-center justify-center py-5">
+          <div data-be-placeholder className="flex items-center justify-center py-5">
             <div className="w-7 h-7 rounded-full border-2 border-gold/20 border-t-gold animate-spin" />
           </div>
-          <a href="https://exely.com/" rel="nofollow" target="_blank" className="sr-only">Hotel management software</a>
+          <a data-be-placeholder href="https://exely.com/" rel="nofollow" target="_blank" className="sr-only">Hotel management software</a>
         </div>
       </div>
   )
