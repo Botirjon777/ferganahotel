@@ -110,7 +110,10 @@ export default function GalleryView() {
           </div>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
 
       {/* Accordion Sections */}
       <div className="flex flex-col pb-5">

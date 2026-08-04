@@ -55,7 +55,11 @@ export default function NewsView() {
           </div>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
+
       {/* News Grid */}
       <section className="py-5 px-5 md:px-6 max-w-[1200px] mx-auto">
         <div className="flex justify-end mb-6">

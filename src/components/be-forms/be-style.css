@@ -14,9 +14,7 @@
 }
 
 #block-search {
-    max-width: 1160px;
-    width: calc(100% - 30px);
-    margin: 10px auto;
+    width: 100%;
     background: #FAF8F2;
     border: 1px solid #D5C6AE;
     border-radius: 12px;
@@ -25,38 +23,15 @@
 /* Reserve height only until the widget has rendered. BeSearchForm adds
    --loaded at that point. Holding the reservation afterwards would leave dead
    space in every locale whose widget is shorter than the Russian one. */
-#block-search:not(.block-search--loaded) {
+#block-search:not(.block-search--loaded) .be-placeholder {
     min-height: 153px;
-}
-
-/* The bar only docks at 1200px and up (MIN_WIDTH in BeSearchForm). Below that
-   it stays an ordinary section after the hero instead of overlapping it, so
-   phones and tablets never get a form half-hidden behind the hero. */
-@media screen and (min-width: 1200px) {
-    #block-search.block-search--main {
-        position: relative;
-        z-index: 3;
-        margin: -100px auto 10px auto;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    #block-search.block-search--main {
-        margin: -210px auto 40px auto;
-    }
-}
-
-/* Offers page: the wrapper already lifts the block with -mt-16. */
-#block-search.block-search--offers {
-    position: relative;
-    z-index: 3;
-    margin-top: 80px;
 }
 
 /* Added by BeSearchForm once the block reaches the underside of the navbar.
    Declared after the --main rules above so it wins when both classes apply. */
 #block-search.block-search--fixed {
     position: fixed;
+    left: 0;
     top: 0;
     z-index: 99;
     width: 100%;
@@ -72,8 +47,8 @@
 }
 
 #block-search.block-search--fixed .be-container {
-    max-width: 1200px;
-    padding: 0 20px;
+    max-width: 1220px;
+    padding: 0 30px;
 }
 
 .be-container {
@@ -86,21 +61,4 @@ body:has(#be-booking-form) a[href="https://www.instagram.com/fergana_hotell/"],
 body:has(#be-booking-form) a[href="https://t.me/ferghana_hotel"],
 body:has(#be-booking-form) .scroll-to-top {
     display: none;
-}
-
-/* Tablet and mobile: give the section room to breathe under the hero. */
-@media screen and (max-width: 1199px) {
-    #block-search.block-search--main {
-        margin: 20px auto 30px auto;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #block-search:not(.block-search--loaded) .be-container {
-        min-height: 380px;
-    }
-
-    .be-container {
-        padding: 0 15px;
-    }
 }

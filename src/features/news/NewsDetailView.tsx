@@ -72,7 +72,11 @@ export default function NewsDetailView({ id }: NewsDetailViewProps) {
           </h1>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
+
       {/* Article Content */}
       <section className="py-5 px-5 max-w-[1200px] mx-auto">
         <div className="bg-white p-5 border border-sand/10 shadow-sm">

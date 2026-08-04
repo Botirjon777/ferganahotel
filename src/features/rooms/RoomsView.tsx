@@ -64,7 +64,11 @@ export default function RoomsView() {
           </div>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
+
       {/* Rooms List */}
       <section className="py-5 px-4 md:px-6 max-w-[1200px] mx-auto space-y-6">
         {rooms.map((room, index) => (

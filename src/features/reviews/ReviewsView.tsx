@@ -107,7 +107,9 @@ export default function ReviewsView() {
         </div>
       </section>
 
-      <BeSearchForm />
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
 
       <WriteReviewCTA />
 

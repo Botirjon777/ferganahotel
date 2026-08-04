@@ -7,6 +7,8 @@ import { GuestPicker } from "@/components/ui/form/GuestPicker";
 import { useBookingStore } from "@/store/useBookingStore";
 import { ReviewsWidget } from "@/components/ui/ReviewsWidget";
 import { useRouter } from "@/i18n/navigation";
+import {ImageBanner} from "@/features/home/components/ImageBanner";
+import BeSearchForm from "@/components/be-forms/BeSearchForm";
 
 export function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -50,7 +52,7 @@ export function Hero() {
     <section
       id="hero"
       aria-label="Hero"
-      className="h-[75vh] md:h-screen min-h-[520px] md:min-h-[800px] relative flex flex-col items-center justify-center"
+      className="md:h-screen min-h-[75vh] md:min-h-[800px] relative flex flex-col items-center justify-center"
     >
       <div className="absolute inset-0 bg-linear-to-br from-navy via-navy-light to-navy-lighter hero-orb-1 hero-orb-2 overflow-hidden"></div>
       <div
@@ -60,8 +62,8 @@ export function Hero() {
       ></div>
 
       {/* Main Content Area */}
-      <div className="relative z-2 text-center px-4 md:px-6 max-w-[1160px] w-full flex flex-col items-center pt-20 md:pt-24 md:mb-35">
-        <div className="max-w-[900px] mb-5 md:mb-10">
+      <div className="relative z-2 text-center px-4 md:px-6 max-w-[1160px] w-full flex flex-col items-center pt-30 md:pt-24 pb-10">
+        <div className="max-w-[900px] mb-5">
           <h1 className="font-cormorant text-[clamp(1.875rem,8.5vw,3rem)] md:text-[60px] lg:text-[70px] font-light leading-[0.95] md:leading-[0.9] text-cream mb-2.5 md:mb-5 opacity-0 animate-[fadeUp_0.8s_0.5s_forwards]">
             {t("titlePart1")}{" "}
             <em className="italic text-gold">
@@ -79,40 +81,42 @@ export function Hero() {
           </div>
         </div>
 
+        <BeSearchForm />
+
         {/* Integrated Booking Form - Positioned after text with 3D effect */}
-        <div className="w-full opacity-0 animate-[fadeUp_0.8s_0.9s_forwards]">
+        {/*<div className="w-full opacity-0 animate-[fadeUp_0.8s_0.9s_forwards]">
           <div className="max-w-[1160px] mx-auto group">
-            {/*<div className="bg-white shadow-[0_20px_40px_rgba(0,0,0,0.4)] md:shadow-[0_50px_100px_rgba(26,17,8,0.6)] px-2.5 py-2.5 md:p-5 flex gap-2.5 md:gap-5 items-end flex-col lg:flex-row transition-all duration-500 hover:-translate-y-2 relative">*/}
-            {/*  <CustomDatePicker*/}
-            {/*    label={`${tb("checkIn")} — ${tb("checkOut")}`}*/}
-            {/*    checkIn={checkIn}*/}
-            {/*    checkOut={checkOut}*/}
-            {/*    onChange={(inDate, outDate) => {*/}
-            {/*      setCheckIn(inDate);*/}
-            {/*      setCheckOut(outDate);*/}
-            {/*    }}*/}
-            {/*    className="flex-[1.5] w-full min-w-[280px]"*/}
-            {/*    theme="light"*/}
-            {/*  />*/}
-            {/*  <GuestPicker*/}
-            {/*    adults={adults}*/}
-            {/*    childrenAges={childrenAges}*/}
-            {/*    onChange={(a, c) => {*/}
-            {/*      setAdults(a);*/}
-            {/*      setChildrenAges(c);*/}
-            {/*    }}*/}
-            {/*    className="flex-1 w-full"*/}
-            {/*    theme="light"*/}
-            {/*  />*/}
-            {/*  <button*/}
-            {/*    className="bg-gold hover:bg-gold-dark transition-all duration-300 text-white border-none px-2.5 md:px-5 font-jost text-[10px] md:text-[11px] tracking-[2px] md:tracking-[4px] uppercase cursor-pointer whitespace-nowrap self-end w-full lg:w-auto shadow-xl shadow-gold/20 font-bold active:scale-95 h-[58px] flex items-center justify-center"*/}
-            {/*    onClick={() => router.push("/booking")}*/}
-            {/*  >*/}
-            {/*    {tb("checkAvailability")}*/}
-            {/*  </button>*/}
-            {/*</div>*/}
+            <div className="bg-white shadow-[0_20px_40px_rgba(0,0,0,0.4)] md:shadow-[0_50px_100px_rgba(26,17,8,0.6)] px-2.5 py-2.5 md:p-5 flex gap-2.5 md:gap-5 items-end flex-col lg:flex-row transition-all duration-500 hover:-translate-y-2 relative">
+              <CustomDatePicker
+                label={`${tb("checkIn")} — ${tb("checkOut")}`}
+                checkIn={checkIn}
+                checkOut={checkOut}
+                onChange={(inDate, outDate) => {
+                  setCheckIn(inDate);
+                  setCheckOut(outDate);
+                }}
+                className="flex-[1.5] w-full min-w-[280px]"
+                theme="light"
+              />
+              <GuestPicker
+                adults={adults}
+                childrenAges={childrenAges}
+                onChange={(a, c) => {
+                  setAdults(a);
+                  setChildrenAges(c);
+                }}
+                className="flex-1 w-full"
+                theme="light"
+              />
+              <button
+                className="bg-gold hover:bg-gold-dark transition-all duration-300 text-white border-none px-2.5 md:px-5 font-jost text-[10px] md:text-[11px] tracking-[2px] md:tracking-[4px] uppercase cursor-pointer whitespace-nowrap self-end w-full lg:w-auto shadow-xl shadow-gold/20 font-bold active:scale-95 h-[58px] flex items-center justify-center"
+                onClick={() => router.push("/booking")}
+              >
+                {tb("checkAvailability")}
+              </button>
+            </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
