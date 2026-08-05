@@ -1,12 +1,12 @@
 'use client';
 import React from "react";
 import {useEffect} from "react";
-import "./be-style.css";
 import {useLocale} from "next-intl";
+import "./be-style.css";
 
 export default function BeSearchForm({ extraClass }: { extraClass?: string }) {
   const locale = useLocale();
-  const searchForm = (w: any) => {
+  const searchForm = (w: Window) => {
     // @ts-ignore
     !function(e,n){
       // @ts-ignore
@@ -18,7 +18,7 @@ export default function BeSearchForm({ extraClass }: { extraClass?: string }) {
             // @ts-ignore
             a.onerror=a.onload=function(n,i){return function(){e[t]&&e[t][o]&&e[t][o].loaded||(g.removeChild(n),i())}}(a,(function(){n(i.slice(1,i.length))})),g.appendChild(a)}}(
             ["uz-ibe.hopenapi.com", "ibe.hopenapi.com", "ibe.behopenapi.com"])}
-    }(window, [
+    }(w, [
       ["setContext", "BE-INT-fergana-hotel_2026-07-27", locale],
       ["embed", "search-form", {
         container: "be-search-form"
@@ -163,7 +163,7 @@ export default function BeSearchForm({ extraClass }: { extraClass?: string }) {
   return (
       <div id="block-search" className={`block-search ${extraClass || ""}`}>
         <div id="be-search-form" className="be-container">
-          <div data-be-placeholder className="flex items-center justify-center py-5">
+          <div data-be-placeholder className="flex items-center justify-center py-5 be-placeholder">
             <div className="w-7 h-7 rounded-full border-2 border-gold/20 border-t-gold animate-spin" />
           </div>
           <a data-be-placeholder href="https://exely.com/" rel="nofollow" target="_blank" className="sr-only">Hotel management software</a>

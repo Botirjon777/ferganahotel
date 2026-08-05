@@ -59,7 +59,11 @@ export default function MeetingsView() {
           </div>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
+
       {/* Introduction */}
       <section className="py-5 px-5 max-w-[1200px] mx-auto text-center">
         <h2 className="font-cormorant text-4xl md:text-5xl text-text-dark mb-5">

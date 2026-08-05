@@ -70,7 +70,9 @@ export default function AboutView() {
         </div>
       </section>
 
-      <BeSearchForm />
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
 
       {/* Terms & Conditions Section */}
       <section className="py-5 px-5 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">

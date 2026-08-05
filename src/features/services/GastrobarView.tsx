@@ -40,7 +40,11 @@ export default function GastrobarView() {
           </div>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
+
       {/* Content Section 1: Buffet Breakfast */}
       <section className="py-5 px-5 max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">

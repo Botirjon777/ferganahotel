@@ -1,12 +1,12 @@
 'use client';
 import React from "react";
 import {useEffect} from "react";
-import "./be-style.css";
 import {useLocale} from "next-intl";
+import "./be-style.css";
 
 export default function BeBookingForm() {
   const locale = useLocale();
-  const bookingForm = (w: any) => {
+  const bookingForm = (w: Window) => {
     // @ts-ignore
     !function(e,n){
       // @ts-ignore
@@ -18,7 +18,7 @@ export default function BeBookingForm() {
             // @ts-ignore
             a.onerror=a.onload=function(n,i){return function(){e[t]&&e[t][o]&&e[t][o].loaded||(g.removeChild(n),i())}}(a,(function(){n(i.slice(1,i.length))})),g.appendChild(a)}}(
             ["uz-ibe.hopenapi.com", "ibe.hopenapi.com", "ibe.behopenapi.com"])}
-    }(window, [
+    }(w, [
       ["setContext", "BE-INT-fergana-hotel_2026-07-27", locale],
       ["embed", "booking-form", {
         container: "be-booking-form"

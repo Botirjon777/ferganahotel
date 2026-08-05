@@ -101,7 +101,11 @@ export default function GeneralServicesView() {
           </div>
         </div>
       </section>
-      <BeSearchForm />
+
+      <section className="py-5 px-5 max-w-[1200px] mx-auto">
+        <BeSearchForm />
+      </section>
+
       {/* Services with Room Stay */}
       <section className="py-5 px-5 max-w-[1200px] mx-auto">
         <h2 className="font-cormorant text-4xl md:text-5xl text-text-dark mb-5 text-center">

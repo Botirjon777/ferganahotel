@@ -2,7 +2,6 @@ import dynamic from "next/dynamic";
 import { Hero } from "./components/Hero";
 import { Navbar } from "@/components/layout/Navbar";
 import { MobileSidebar } from "@/components/layout/MobileSidebar";
-import BeSearchForm from "@/components/be-forms/BeSearchForm";
 import { ImageBanner } from "./components/ImageBanner";
 
 const Recommendations = dynamic(() => import("./components/Recommendations").then(m => ({ default: m.Recommendations })));
@@ -23,7 +22,6 @@ export default function HomeView() {
       <MobileSidebar />
 
       <Hero />
-        <BeSearchForm extraClass={"block-search--main"} />
       <ImageBanner />
       <SpecialOffers />
       <Recommendations />
