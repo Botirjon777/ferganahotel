@@ -93,6 +93,10 @@ export function Footer() {
             <ul className="list-none flex flex-col gap-2.5 m-0 p-0">
               <li><Link className="text-md text-cream/55 no-underline font-light transition-colors duration-300 hover:text-gold" href="/about#terms-of-stay">{t("links.terms")}</Link></li>
               <li><Link className="text-md text-cream/55 no-underline font-light transition-colors duration-300 hover:text-gold" href="/about#cancellation-policy">{t("links.cancellation")}</Link></li>
+              <li><Link className="text-md text-cream/55 no-underline font-light transition-colors duration-300 hover:text-gold" href="/legal#privacy-policy">{t("links.privacyPolicy")}</Link></li>
+              <li><Link className="text-md text-cream/55 no-underline font-light transition-colors duration-300 hover:text-gold" href="/legal#personal-data-consent">{t("links.personalDataConsent")}</Link></li>
+              <li><Link className="text-md text-cream/55 no-underline font-light transition-colors duration-300 hover:text-gold" href="/legal#newsletter-consent">{t("links.newsletterConsent")}</Link></li>
+              <li><Link className="text-md text-cream/55 no-underline font-light transition-colors duration-300 hover:text-gold" href="/legal#user-agreement">{t("links.userAgreement")}</Link></li>
             </ul>
           </div>
         </div>
@@ -151,6 +155,10 @@ export function Footer() {
               links: [
                 { href: "/about#terms-of-stay", label: t("links.terms") },
                 { href: "/about#cancellation-policy", label: t("links.cancellation") },
+                { href: "/legal#privacy-policy", label: t("links.privacyPolicy") },
+                { href: "/legal#personal-data-consent", label: t("links.personalDataConsent") },
+                { href: "/legal#newsletter-consent", label: t("links.newsletterConsent") },
+                { href: "/legal#user-agreement", label: t("links.userAgreement") },
               ],
             },
           ].map((section) => (
@@ -168,7 +176,7 @@ export function Footer() {
               </button>
               <ul
                 className={`list-none flex flex-col gap-4 m-0 p-0 overflow-hidden transition-all duration-500 ${
-                  openSections[section.key] ? "max-h-[300px] pb-5" : "max-h-0"
+                  openSections[section.key] ? "max-h-[500px] pb-5" : "max-h-0"
                 }`}
               >
                 {section.links.map((link) => (

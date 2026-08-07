@@ -506,7 +506,11 @@
       "meetings": "Meetings & Events",
       "amenities": "Amenities",
       "terms": "Terms of Stay",
-      "cancellation": "Cancellation Policy"
+      "cancellation": "Cancellation Policy",
+      "privacyPolicy": "Privacy Policy",
+      "personalDataConsent": "Personal Data Processing Consent",
+      "newsletterConsent": "Newsletter Consent",
+      "userAgreement": "User Agreement"
     },
     "brandBlurb": "Fergana Hotel — premium hospitality in the heart of Fergana. Experience comfort, elegance, and tradition.",
     "rights": "All rights reserved."
@@ -575,7 +579,9 @@
     "newsTitle": "News & Events — Fergana Hotel",
     "newsDesc": "Latest news, achievements, and announcements from Fergana Hotel.",
     "offersTitle": "Special Offers & Promotions — Fergana Hotel",
-    "offersDesc": "Discover our exclusive special offers and promotions. Book direct and enjoy additional discounts and benefits during your stay at Fergana Hotel."
+    "offersDesc": "Discover our exclusive special offers and promotions. Book direct and enjoy additional discounts and benefits during your stay at Fergana Hotel.",
+    "legalTitle": "Legal Information — Fergana Hotel",
+    "legalDesc": "Company details, privacy policy, personal data processing consent, and user agreement for the Fergana Hotel website."
   },
   "SpecialOffers": {
     "title": "Special offers from Fergana Hotel",
@@ -584,5 +590,48 @@
     "longStay": "Long-term accommodation",
     "longStayDesc": "Stay longer and save money! Book a room at the Fergana Hotel for 4 nights or more and get a 15% discount. The \"Long stay\" tariff is designed for those who want to enjoy the comfort and coziness of our hotel for a long stay at a special price.",
     "bookNow": "BOOK NOW"
+  },
+  "LegalPage": {
+    "title": "Legal Information",
+    "subtitle": "Company details, privacy policy, and terms of use for the Fergana Hotel website",
+    "companyDetails": {
+      "heading": "Company Details",
+      "nameLabel": "Company name",
+      "name": "GRAND STAR FAYZ SD LLC",
+      "addressLabel": "Registered address",
+      "address": "Moturudiy ko'chasi 30V/1, Fergana, Republic of Uzbekistan",
+      "innLabel": "Taxpayer ID (INN)",
+      "inn": "309018870",
+      "vatLabel": "VAT payer registration code",
+      "vat": "330050234113",
+      "accountLabel": "Bank account",
+      "account": "2020 8000 9054 5824 3001",
+      "bankLabel": "Bank",
+      "bank": "Milliy Bank, Fergana branch",
+      "mfoLabel": "Bank code (MFO)",
+      "mfo": "00450",
+      "okedLabel": "OKED code",
+      "oked": "55100",
+      "directorLabel": "Director",
+      "director": "M.B. Qurbonov"
+    },
+    "sections": {
+      "privacyPolicy": {
+        "title": "Privacy Policy",
+        "content": "This Privacy Policy (the \"Policy\") sets out how GRAND STAR FAYZ SD LLC (the \"Operator\", \"we\") processes the personal data of visitors to the website ferganahotel.uz (the \"Website\"). By using the Website and submitting your details when making a reservation or contacting us, you agree to the terms of this Policy.\n\nWhat data we collect. When booking a room, filling in forms on the Website, or contacting the hotel, we may collect: your full name, phone number, email address, check-in and check-out dates, number of guests, and — in accordance with the legislation of the Republic of Uzbekistan on registering guests at places of temporary residence — identity document details. Online payments are processed through a certified booking engine and payment provider; the Website itself does not store bank card data.\n\nPurposes of processing. Personal data is used to: create and confirm reservations; communicate with guests about their stay; comply with legal requirements for guest registration; ensure the safety of guests and hotel property; and improve the quality of our service.\n\nSharing with third parties. To process reservations and payments we use the Exely/Hopen online booking engine. Data is shared with such partners only to the extent necessary to provide the service, under confidentiality agreements. We do not sell or share personal data with third parties for any other purpose without your consent, except as required by the legislation of the Republic of Uzbekistan.\n\nStorage and protection. Personal data is stored for as long as necessary to achieve the purposes of processing, and for any period required by law (including requirements for retaining guest registration records). The Operator takes reasonable organizational and technical measures to protect data against unauthorized access, alteration, or destruction.\n\nYour rights. You may request information from the Operator about which of your personal data is being processed, request correction, blocking, or deletion of that data, and withdraw your consent to processing at any time by contacting us using the details below.\n\nContact for privacy matters: GRAND STAR FAYZ SD LLC, address: Moturudiy ko'chasi 30V/1, Fergana, Uzbekistan; email: ferghanahotel@gmail.com; phone: +998 55 807 07 77."
+      },
+      "personalDataConsent": {
+        "title": "Personal Data Processing Consent",
+        "content": "In accordance with the Law of the Republic of Uzbekistan \"On Personal Data\" (No. ЗРУ-547 of 02.07.2019), by filling in forms on the ferganahotel.uz Website, submitting a booking request, or otherwise contacting Fergana Hotel, the user gives GRAND STAR FAYZ SD LLC (the \"Operator\") free, specific, informed, and unambiguous consent to the processing of their personal data.\n\nConsent is given for the Operator to carry out the following actions with personal data: collection, recording, systematization, accumulation, storage, clarification (updating, amendment), retrieval, use, disclosure (provision, access) to authorized partners (including the online booking engine and payment provider) to the extent necessary to provide the service, as well as blocking and destruction of personal data.\n\nThe purpose of processing is to create and fulfil reservations, provide hotel services, comply with legal requirements for guest registration, and communicate with the user on matters related to their stay.\n\nThis consent is valid from the moment it is given until withdrawn by the user. The user may withdraw consent at any time by sending a written notice to ferghanahotel@gmail.com. Withdrawal of consent does not affect the lawfulness of processing carried out prior to withdrawal."
+      },
+      "newsletterConsent": {
+        "title": "Newsletter Consent",
+        "content": "By filling in a form on the ferganahotel.uz Website and providing a phone number, email address, or other contact details, the user may give separate, voluntary consent to GRAND STAR FAYZ SD LLC (the \"Operator\") to receive informational and promotional messages about Fergana Hotel's special offers, discounts, news, and events.\n\nNewsletters may be sent by email, SMS, or messaging apps (Telegram, WhatsApp) to the contact details provided by the user.\n\nConsent to receive newsletters is not a mandatory condition for booking a room or using any other service on the Website, and is given separately from the consent to process personal data required to complete a reservation.\n\nThe user may unsubscribe from newsletters at any time via the unsubscribe link in a message (where available) or by sending a request to ferghanahotel@gmail.com."
+      },
+      "userAgreement": {
+        "title": "User Agreement",
+        "content": "This User Agreement (the \"Agreement\") governs the relationship between GRAND STAR FAYZ SD LLC (the \"Operator\", \"Hotel\"), the owner and operator of the website ferganahotel.uz (the \"Website\") representing Fergana Hotel, and the user of the Website (the \"User\").\n\nSubject of the Agreement. The Operator provides the User with information about the hotel, its rooms, and services, and the ability to book a room through the online booking system embedded on the Website.\n\nBooking procedure. Room reservations are made through the form on the Website. The User receives booking confirmation from the booking engine and/or from the Operator using the contact details provided. Cancellation and modification terms are set out in the \"Cancellation Policy\" section.\n\nRights and obligations of the parties. The User agrees to provide accurate information when booking and to use the Website for its intended purpose. The Operator agrees to provide services matching the description on the Website and to keep the User's personal data confidential in accordance with the Privacy Policy.\n\nLiability. The Operator is not liable for temporary unavailability of the Website due to technical reasons, or for the actions of third parties (including payment systems and the online booking engine) that support certain functions of the Website.\n\nDispute resolution. Any disputes arising from the performance of this Agreement shall be resolved through negotiation, and if no agreement can be reached, in accordance with the legislation of the Republic of Uzbekistan.\n\nOperator's details: GRAND STAR FAYZ SD LLC; registered address: Moturudiy ko'chasi 30V/1, Fergana, Republic of Uzbekistan; Taxpayer ID (INN): 309018870; VAT payer registration code: 330050234113; bank account: 2020 8000 9054 5824 3001; bank: Milliy Bank, Fergana branch; MFO: 00450; OKED: 55100; Director: M.B. Qurbonov."
+      }
+    }
   }
 }

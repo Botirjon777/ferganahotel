@@ -20,6 +20,7 @@ const staticPaths = [
   { path: "/booking",            priority: "0.9", changeFreq: "weekly"  },
   { path: "/contacts",           priority: "0.7", changeFreq: "monthly" },
   { path: "/reviews",            priority: "0.6", changeFreq: "weekly"  },
+  { path: "/legal",              priority: "0.3", changeFreq: "yearly"  },
 ];
 
 function urlBlock(path: string, priority: string, changeFreq: string, lastmod: string) {

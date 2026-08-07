@@ -506,7 +506,11 @@
       "meetings": "Uchrashuvlar va tadbirlar",
       "amenities": "Qulayliklar",
       "terms": "Yashash shartlari",
-      "cancellation": "Bekor qilish siyosati"
+      "cancellation": "Bekor qilish siyosati",
+      "privacyPolicy": "Maxfiylik siyosati",
+      "personalDataConsent": "Shaxsiy ma'lumotlarni qayta ishlashga rozilik",
+      "newsletterConsent": "Xabarnomalar olishga rozilik",
+      "userAgreement": "Foydalanuvchi shartnomasi"
     },
     "brandBlurb": "Fergana Hotel — Farg‘ona markazida joylashgan premium mehmondo‘stlik. Qulaylik, nafislik va an’analarni his eting.",
     "rights": "Barcha huquqlar himoyalangan."
@@ -575,7 +579,9 @@
     "newsTitle": "Yangiliklar va voqealar — Fergana Hotel",
     "newsDesc": "Fergana Hoteldan so'nggi yangiliklar, yutuqlar va e'lonlar.",
     "offersTitle": "Maxsus takliflar va aksiyalar — Fergana Hotel",
-    "offersDesc": "Bizning eksklyuziv takliflarimiz va aksiyalarimiz bilan tanishing. To'g'ridan-to'g'ri band qiling va qo'shimcha chegirmalarga ega bo'ling."
+    "offersDesc": "Bizning eksklyuziv takliflarimiz va aksiyalarimiz bilan tanishing. To'g'ridan-to'g'ri band qiling va qo'shimcha chegirmalarga ega bo'ling.",
+    "legalTitle": "Huquqiy ma'lumotlar — Fergana Hotel Farg'ona",
+    "legalDesc": "Fergana Hotel Farg'ona veb-saytining tashkilot rekvizitlari, maxfiylik siyosati, shaxsiy ma'lumotlarni qayta ishlashga rozilik va foydalanuvchi shartnomasi."
   },
   "SpecialOffers": {
     "title": "Fergana Hotel maxsus takliflari",
@@ -584,5 +590,48 @@
     "longStay": "Uzoq muddatli yashash",
     "longStayDesc": "Uzoqroq qoling va tejang! Fergana Hotelda 4 kecha yoki undan ko'proq muddatga xona band qiling va 15% chegirmaga ega bo'ling. \"Uzoq muddatli yashash\" tarifi mehmonxonamizning qulayligi va shinamligidan maxsus narxda uzoq vaqt zavqlanishni istaganlar uchun mo'ljallangan.",
     "bookNow": "BAND QILISH"
+  },
+  "LegalPage": {
+    "title": "Huquqiy ma'lumotlar",
+    "subtitle": "Tashkilot rekvizitlari, maxfiylik siyosati va Fergana Hotel veb-saytidan foydalanish shartlari",
+    "companyDetails": {
+      "heading": "Tashkilot rekvizitlari",
+      "nameLabel": "Tashkilot nomi",
+      "name": "«GRAND STAR FAYZ SD» MCHJ",
+      "addressLabel": "Yuridik manzil",
+      "address": "Moturudiy ko'chasi 30V/1, Farg'ona, O'zbekiston Respublikasi",
+      "innLabel": "STIR",
+      "inn": "309018870",
+      "vatLabel": "QQS to'lovchisining ro'yxatga olish kodi",
+      "vat": "330050234113",
+      "accountLabel": "Hisob raqami",
+      "account": "2020 8000 9054 5824 3001",
+      "bankLabel": "Bank",
+      "bank": "Milliy bank, Farg'ona filiali",
+      "mfoLabel": "MFO",
+      "mfo": "00450",
+      "okedLabel": "OKED",
+      "oked": "55100",
+      "directorLabel": "Direktor",
+      "director": "Qurbonov M.B."
+    },
+    "sections": {
+      "privacyPolicy": {
+        "title": "Maxfiylik siyosati",
+        "content": "Mazkur Maxfiylik siyosati (\"Siyosat\") ferganahotel.uz veb-saytidan (\"Sayt\") foydalanuvchilarning shaxsiy ma'lumotlarini «GRAND STAR FAYZ SD» MCHJ (\"Operator\", \"biz\") tomonidan qayta ishlash tartibini belgilaydi. Saytdan foydalanish va xona band qilish yoki biz bilan bog'lanish jarayonida ma'lumotlaringizni qoldirish orqali siz mazkur Siyosat shartlariga rozilik bildirasiz.\n\nQanday ma'lumotlar to'planadi. Xona band qilish, Saytdagi shakllarni to'ldirish yoki mehmonxonaga murojaat qilish jarayonida biz quyidagi ma'lumotlarni to'plashimiz mumkin: F.I.Sh., telefon raqami, elektron pochta manzili, kelish va ketish sanalari, mehmonlar soni, shuningdek — O'zbekiston Respublikasining vaqtinchalik turar joylarda fuqarolarni ro'yxatga olish to'g'risidagi qonunchiligiga muvofiq — shaxsni tasdiqlovchi hujjat ma'lumotlari. Onlayn to'lovlar sertifikatlangan band qilish tizimi va to'lov provayderi orqali amalga oshiriladi — Sayt bank karta ma'lumotlarini saqlamaydi.\n\nQayta ishlash maqsadlari. Shaxsiy ma'lumotlar quyidagi maqsadlarda ishlatiladi: bandlovni rasmiylashtirish va tasdiqlash; mehmon bilan turar joyga oid masalalar yuzasidan bog'lanish; mehmonlarni ro'yxatga olish bo'yicha qonunchilik talablarini bajarish; mehmonlar va mehmonxona mol-mulki xavfsizligini ta'minlash; xizmat sifatini oshirish.\n\nUchinchi shaxslarga uzatish. Bandlovlar va to'lovlarni qayta ishlash uchun biz Exely/Hopen onlayn band qilish tizimidan foydalanamiz. Ma'lumotlar bunday hamkorlarga faqat xizmatni ko'rsatish uchun zarur bo'lgan hajmda, ular bilan tuzilgan maxfiylik shartnomalari asosida uzatiladi. Biz shaxsiy ma'lumotlarni, O'zbekiston Respublikasi qonunchiligida nazarda tutilgan holatlar bundan mustasno, sizning roziligingizsiz boshqa maqsadlarda uchinchi shaxslarga sotmaymiz va uzatmaymiz.\n\nSaqlash va himoya qilish. Shaxsiy ma'lumotlar ularni qayta ishlash maqsadlariga erishish uchun zarur bo'lgan muddat davomida, shuningdek qonunchilikda belgilangan muddatlar davomida (jumladan, mehmonlarni ro'yxatga olish ma'lumotlarini saqlash talablariga muvofiq) saqlanadi. Operator ma'lumotlarni ruxsatsiz kirish, o'zgartirish yoki yo'q qilishdan himoya qilish bo'yicha tashkiliy va texnik choralarni ko'radi.\n\nSizning huquqlaringiz. Siz Operatordan qaysi shaxsiy ma'lumotlaringiz qayta ishlanayotgani haqida ma'lumot so'rash, ularni aniqlashtirish, bloklash yoki yo'q qilishni talab qilish, shuningdek pastda ko'rsatilgan kontaktlar orqali murojaat qilib, ma'lumotlarni qayta ishlashga bergan roziligingizni istalgan vaqtda qaytarib olish huquqiga egasiz.\n\nShaxsiy ma'lumotlarni qayta ishlash bo'yicha murojaat uchun kontaktlar: «GRAND STAR FAYZ SD» MCHJ, manzil: Moturudiy ko'chasi 30V/1, Farg'ona, O'zbekiston; email: ferghanahotel@gmail.com; telefon: +998 55 807 07 77."
+      },
+      "personalDataConsent": {
+        "title": "Shaxsiy ma'lumotlarni qayta ishlashga rozilik",
+        "content": "O'zbekiston Respublikasining «Shaxsga oid ma'lumotlar to'g'risida»gi Qonuniga (2019-yil 2-iyuldagi ЗРУ-547-son) muvofiq, ferganahotel.uz Saytidagi shakllarni to'ldirish, bandlovga ariza qoldirish yoki Fergana Hotelga boshqa har qanday usulda murojaat qilish orqali foydalanuvchi «GRAND STAR FAYZ SD» MCHJ (\"Operator\")ga o'z shaxsiy ma'lumotlarini qayta ishlashga erkin, aniq, xabardor va bir ma'noli rozilik beradi.\n\nRozilik Operatorga shaxsiy ma'lumotlar bilan quyidagi amallarni bajarish uchun beriladi: to'plash, yozib olish, tizimlashtirish, jamlash, saqlash, aniqlashtirish (yangilash, o'zgartirish), olish, foydalanish, xizmatni ko'rsatish uchun zarur bo'lgan hajmda vakolatli hamkorlarga (jumladan, onlayn band qilish tizimi va to'lov provayderiga) taqdim etish (berish, kirish huquqini berish), shuningdek shaxsiy ma'lumotlarni bloklash va yo'q qilish.\n\nQayta ishlashning maqsadi — bandlovni rasmiylashtirish va bajarish, mehmonxona xizmatlarini ko'rsatish, mehmonlarni ro'yxatga olish bo'yicha qonunchilik talablarini bajarish va foydalanuvchi bilan turar joyga oid masalalar yuzasidan bog'lanishdir.\n\nRozilik berilgan paytdan boshlab foydalanuvchi tomonidan qaytarib olinguncha amal qiladi. Foydalanuvchi istalgan vaqtda ferghanahotel@gmail.com elektron pochtasiga yozma xabar yuborish orqali roziligini qaytarib olishi mumkin. Rozilikni qaytarib olish uni qaytarib olishdan oldin amalga oshirilgan qayta ishlashning qonuniyligiga ta'sir qilmaydi."
+      },
+      "newsletterConsent": {
+        "title": "Xabarnomalar olishga rozilik",
+        "content": "ferganahotel.uz Saytidagi shaklni to'ldirib, telefon raqami, elektron pochta manzili yoki boshqa aloqa ma'lumotlarini ko'rsatgan foydalanuvchi «GRAND STAR FAYZ SD» MCHJ (\"Operator\")dan Fergana Hotelning maxsus takliflari, chegirmalari, yangiliklari va tadbirlari haqida axborot va reklama xabarlarini olishga alohida, ixtiyoriy rozilik berishi mumkin.\n\nXabarnomalar foydalanuvchi ko'rsatgan aloqa ma'lumotlariga elektron pochta, SMS yoki messenjerlar (Telegram, WhatsApp) orqali yuborilishi mumkin.\n\nXabarnomalarni olishga rozilik xona band qilish yoki Saytning boshqa xizmatlaridan foydalanish uchun majburiy shart hisoblanmaydi va bandlovni rasmiylashtirish uchun zarur bo'lgan shaxsiy ma'lumotlarni qayta ishlashga rozilikdan alohida beriladi.\n\nFoydalanuvchi istalgan vaqtda xatdagi obunani bekor qilish havolasi orqali (mavjud bo'lsa) yoki ferghanahotel@gmail.com manziliga tegishli so'rov yuborish orqali xabarnomalardan voz kechishi mumkin."
+      },
+      "userAgreement": {
+        "title": "Foydalanuvchi shartnomasi",
+        "content": "Mazkur Foydalanuvchi shartnomasi (\"Shartnoma\") ferganahotel.uz veb-saytining (\"Sayt\") egasi va operatori bo'lib, Fergana Hotel Farg'ona nomidan ish yurituvchi «GRAND STAR FAYZ SD» MCHJ (\"Operator\", \"Mehmonxona\") va Sayt foydalanuvchisi (\"Foydalanuvchi\") o'rtasidagi munosabatlarni tartibga soladi.\n\nShartnomaning predmeti. Operator Foydalanuvchiga mehmonxona, uning xonalari va xizmatlari haqida ma'lumot olish, shuningdek Saytga joylashtirilgan onlayn band qilish tizimi orqali xona band qilish imkoniyatini taqdim etadi.\n\nBand qilish tartibi. Xonani band qilish Saytdagi shakl orqali amalga oshiriladi. Foydalanuvchi bandlov tasdiqini onlayn band qilish tizimidan va/yoki Operatordan ko'rsatilgan aloqa ma'lumotlari orqali oladi. Bandlovni bekor qilish va o'zgartirish shartlari «Bekor qilish siyosati» bo'limida ko'rsatilgan.\n\nTomonlarning huquq va majburiyatlari. Foydalanuvchi bandlov paytida haqiqiy ma'lumotlar taqdim etishga va Saytdan uning maqsadiga muvofiq foydalanishga majburdir. Operator Saytda tasvirlangan xizmatlarni taqdim etishga va Foydalanuvchining shaxsiy ma'lumotlari maxfiyligini Maxfiylik siyosatiga muvofiq ta'minlashga majburdir.\n\nJavobgarlik. Operator Saytning texnik sabablarga ko'ra vaqtincha ishlamay qolishi, shuningdek Saytning ayrim funksiyalarini ta'minlaydigan uchinchi shaxslar (jumladan, to'lov tizimlari va onlayn band qilish tizimi) harakatlari uchun javobgar emas.\n\nNizolarni hal qilish. Mazkur Shartnomani bajarish jarayonida kelib chiqadigan barcha nizo va kelishmovchiliklar muzokaralar yo'li bilan, kelishuvga erishilmaganda esa O'zbekiston Respublikasi qonunchiligida belgilangan tartibda hal qilinadi.\n\nOperatorning rekvizitlari: «GRAND STAR FAYZ SD» MCHJ; yuridik manzil: Moturudiy ko'chasi 30V/1, Farg'ona shahri, O'zbekiston Respublikasi; STIR: 309018870; QQS to'lovchisining ro'yxatga olish kodi: 330050234113; hisob raqami: 2020 8000 9054 5824 3001; bank: Milliy bank, Farg'ona filiali; MFO: 00450; OKED: 55100; direktor: Qurbonov M.B."
+      }
+    }
   }
 }
