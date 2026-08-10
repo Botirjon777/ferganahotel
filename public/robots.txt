@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ferganahotel.uz/sitemap.xml
