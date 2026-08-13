@@ -32,6 +32,7 @@ const getFlagUrl = (lang?: string) => {
     es: "es",
     tr: "tr",
     ar: "sa",
+    xu: "uz", // Uzbekistan
   };
 
   let code = mapping[normalized] || normalized;
@@ -94,10 +95,10 @@ export function ReviewCard({ review, locale }: ReviewCardProps) {
         {/* Author and Language */}
         <div className="flex flex-col items-end gap-1 self-end md:self-auto">
           <div className="flex items-center gap-2.5">
-            <span className="text-text-dark font-medium">
+            <span className="text-text-dark font-medium whitespace-nowrap">
               {review.authorName || "Guest"}
             </span>
-            <div className="flex items-center gap-1.5 bg-sand/20 px-2 py-0.5 rounded text-[10px] text-text-mid font-medium">
+            <div className="flex items-center gap-1.5 bg-sand/20 px-2 py-0.5 rounded text-[10px] text-text-mid font-medium shrink-0">
               <Image
                 src={getFlagUrl(review.language)}
                 alt={review.language ?? "flag"}
